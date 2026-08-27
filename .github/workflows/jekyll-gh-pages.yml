@@ -22,6 +22,16 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+include:
+  - dists
+  - pool
+  - .htaccess
+  - Packages
+  - Packages.gz
+  - Release
+  - Release.gpg
+  - InRelease
+
 jobs:
   # Build job
   build:
