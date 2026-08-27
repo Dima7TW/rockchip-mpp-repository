@@ -1,0 +1,646 @@
+Package: celluloid
+Essential: no
+Priority: optional
+Section: media
+Installed-Size: 3040
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 0.29~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, libdrm2, libgcc-s1, libxcb1, libxcb-shm0, libxcb-shape0, libxcb-xfixes0, libasound2t64, libsdl2-2.0-0, libsndio7.0, libxv1, libx11-6, libxext6, libass9, libva2, rockchip-librga (>= 1.10.3~deb13u1+rkmpp), rockchip-mpp (>= 1.3.9~deb13u1+rkmpp), libfreetype6, libbz2-1.0, libgnutls30t64, zlib1g, libvpx9, liblzma5, libfdk-aac2t64, libmp3lame0, libopus0, libvorbis0a, libvorbisenc2, libx264-164, libx265-215, libva-drm2, libva-x11-2, libvdpau1, libxau6, libxdmcp6, libpulse0, libsamplerate0, libxcursor1, libxi6, libxfixes3, libxrandr2, libxss1, libgbm1, libwayland-egl1, libwayland-client0, libwayland-cursor0, libxkbcommon0, libdecor-0-0, libbsd0, libfribidi0, libharfbuzz0b, libunibreak6, libfontconfig1, libpng16-16t64, libbrotli1, libp11-kit0, libidn2-0, libunistring5, libtasn1-6, libhogweed6t64, libnettle8t64, libgmp10, libogg0, libnuma1, libx11-xcb1, libxcb-dri3-0, libdbus-1-3, libxrender1, libexpat1, libffi8, libmd0, libglib2.0-0t64, libgraphite2-3, libbrotli1, libsndfile1, libsystemd0, libasyncns0, libatomic1, libpcre2-8-0, libflac14, libmpg123-0t64, libcap2, mpv-lib(= 0.38~deb13u1+rkmpp), libgtk-4-1, libgdk-pixbuf-2.0-0, libadwaita-1-0, libepoxy0, libpango-1.0-0, libcairo2, libharfbuzz-subset0, libcairo-gobject2, libgraphene-1.0-0, ffmpeg (= 8:7.1.5~deb13u1+rkmpp), libpangoft2-1.0-0, libcloudproviders0, libvulkan1, libtiff6, libjpeg62-turbo, libxdamage1, libxinerama1, libcairo-script-interpreter2, libmount1, libselinux1, libavcodec61 (= 8:7.1.5~deb13u1+rkmpp), libavfilter10 (= 8:7.1.5~deb13u1+rkmpp), libavformat61 (= 8:7.1.5~deb13u1+rkmpp), libavutil59 (= 8:7.1.5~deb13u1+rkmpp), libplacebo349, libswresample5 (= 8:7.1.5~deb13u1+rkmpp), libswscale8 (= 8:7.1.5~deb13u1+rkmpp), libcdio-paranoia2t64, libcdio-cdda2t64, libcdio19t64, libdvdnav4, libmujs3, liblcms2-2, libarchive13t64, libavdevice61 (= 8:7.1.5~deb13u1+rkmpp), libbluray2, liblua5.2-0, librubberband2, libuchardet0, libzimg2, libjack-jackd2-0, libpipewire-0.3-0t64, libsndio7.0, libcaca0, libdisplay-info2, libsixel1, libxpresent1, libegl1, libva-wayland2, libappstream5, libthai0, libxcb-render0, libpixman-1-0, libwebp7, libzstd1, liblerc4, libjbig0, libdeflate0, liblzo2-2, libblkid1, libwebpmux3, libdav1d7, librsvg2-2, libzvbi0t64, libsnappy1v5, libaom3, libcodec2-1.2, libgsm1, libjxl0.11, libopenjp2-7, librav1e0.7, libshine3, libspeex1, libsvtav1enc2, libtheoraenc1, libtheoradec1, libxvidcore4, libpostproc58, libpocketsphinx3, libsphinxbase3t64, libbs2b0, liblilv-0-0, libmysofa1, libflite1, libvidstab1.1, libzmq5, ocl-icd-libopencl1, libdvdread8t64, libxml2, libbz2-1.0, libgme0, libopenmpt0t64, libchromaprint1, libgnutls30t64, librabbitmq4, librist4, libsrt1.5-gnutls, libssh-4, libsoxr0, libacl1, liblz4-1, libraw1394-11, libavc1394-0, libiec61883-0, libopenal1, libxcb-xfixes0, libdc1394-25, libgl1, libudfread0, libfftw3-double3, libdb5.3t64, libslang2, libncursesw6, libtinfo6, libglvnd0, libcurl3t64-gnutls, libxmlb2, libyaml-0-2, libstemmer0d, libdatrie1, libsharpyuv0, libhwy1t64, libblas3, liblapack3, libserd-0-0, libsord-0-0, libsratom-0-0, libzix-0-0, libgomp1, libsodium23, libnorm1t64, libgssapi-krb5-2, libvorbisfile3, libssl3t64, libmbedcrypto16, libcjson1, libxxhash0, libusb-1.0-0, libglx0, libnghttp3-9, libngtcp2-crypto-gnutls8, libngtcp2-16, libnghttp2-14, librtmp1, libssh2-1t64, libpsl5t64, libldap2, libgfortran5, libkrb5-3, libk5crypto3, libcom-err2, libkrb5support0, libudev1, libsasl2-2, libkeyutils1
+Filename: pool/non-free/c/celluloid/celluloid_trixie.deb
+Size: 520016
+MD5sum: 0bab88a8759670be66aad514a8114f88
+SHA1: d26d88c5b2157d51fe3df08905cfdc5fb38df2f4
+SHA256: b0433ed27fc7485ae5aee93e11dbef730c5e38b4ae3727e3125bceccd779d8d6
+SHA512: 4f2dc73250f37d2944648223e90fa50908c837c4fd19e51cc76accb20a68b55b3ce8b560f7027b5fdc044635e772193113cffa64b85526aa7ae1ba60fbc78a50
+Description: Celluloid (formerly GNOME MPV) is a simple GTK+ frontend for mpv. It aims to be easy to use while maintaining high level of configurability. Added the ability to work with RKMPP library.
+
+Package: ffmpeg
+Essential: yes
+Priority: optional
+Section: media
+Installed-Size: 804
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libc6(>= 2.41), libstdc++6, libdrm2, libgcc-s1, libxcb1, libxcb-shm0, libxcb-shape0, libxcb-xfixes0, libasound2t64, libsdl2-2.0-0, libsndio7.0, libxv1, libx11-6, libxext6, libass9, libva2, rockchip-librga (>= 1.10.3~deb13u1+rkmpp), rockchip-mpp (>= 1.3.9~deb13u1+rkmpp), libfreetype6, libbz2-1.0, libgnutls30t64, zlib1g, libvpx9, liblzma5, libfdk-aac2t64, libmp3lame0, libopus0, libvorbis0a, libvorbisenc2, libx264-164, libx265-215, libva-drm2, libva-x11-2, libvdpau1, libxau6, libxdmcp6, libpulse0, libsamplerate0, libxcursor1, libxi6, libxfixes3, libxrandr2, libxss1, libgbm1, libwayland-egl1, libwayland-client0, libwayland-cursor0, libxkbcommon0, libdecor-0-0, libbsd0, libfribidi0, libharfbuzz0b, libunibreak6, libfontconfig1, libpng16-16t64, libbrotli1, libp11-kit0, libidn2-0, libunistring5, libtasn1-6, libhogweed6t64, libnettle8t64, libgmp10, libogg0, libnuma1, libx11-xcb1, libxcb-dri3-0, libdbus-1-3, libxrender1, libexpat1, libffi8, libmd0, libglib2.0-0t64, libgraphite2-3, libbrotli1, libsndfile1, libsystemd0, libasyncns0, libatomic1, libpcre2-8-0, libflac14, libmpg123-0t64, libcap2, libraw1394-11, libavc1394-0, libiec61883-0, libjack-jackd2-0, libopenal1, libcdio-paranoia2t64, libcdio-cdda2t64, libdc1394-25, libcaca0, libgl1, libv4l-0t64 (= 1.30~deb13u1+rkmpp), libpocketsphinx3, libsphinxbase3t64, libbs2b0, liblilv-0-0, librubberband2, libmysofa1, liblcms2-2, libplacebo349, libtesseract5, libzimg2, ocl-icd-libopencl1, libqrencode4, libdvdnav4, libdvdread8t64, libxml2, libgme0, libmodplug1, libopenmpt0t64, libchromaprint1, libbluray2, librist4, librtmp1, libsrt1.5-openssl, libsmbclient0, libwebpmux3, libaribb24-0t64, libdav1d7, libopencore-amrwb0, librsvg2-2, libcairo2, libzvbi0t64, libsnappy1v5, libaom3, libcodec2-1.2, libgsm1, liblc3-1, libopencore-amrnb0, libopenjp2-7, libshine3, libspeex1, libtheoraenc1, libtheoradec1, libtwolame0, libwebp7, libxvidcore4, libsoxr0, libgcrypt20, libdb5.3t64, libcdio19t64, libusb-1.0-0, libslang2, libncursesw6, libtinfo6, libglvnd0, libglx0, libv4lconvert0t64 (= 1.30~deb13u1+rkmpp), libblas3, liblapack3, libserd-0-0, libsord-0-0, libsratom-0-0, libzix-0-0, libfftw3-double3, libvulkan1, libarchive13t64, libcurl4t64, libleptonica6, libgomp1, libvorbisfile3, libudfread0, libmbedcrypto16, libcjson1, libssl3t64, samba-libs, libtevent0t64, libtalloc2, libgdk-pixbuf-2.0-0, libcairo-gobject2, libpangocairo-1.0-0, libpango-1.0-0, libxcb-render0, libpixman-1-0, libsharpyuv0, libgpg-error0, libudev1, libjpeg62-turbo, libgfortran5, libacl1, libzstd1, liblz4-1, libnghttp3-9, libnghttp2-14, libssh2-1t64, libpsl5t64, libgssapi-krb5-2, libldap2, libgif7, libtiff6, libtdb1, libicu76, libldb2, libmount1, libselinux1, libpangoft2-1.0-0, libthai0, libxxhash0, libkrb5-3, libk5crypto3, libcom-err2, libkrb5support0, libsasl2-2, liblerc4, libjbig0, libdeflate0, libwbclient0, libjansson4, libkeyutils1, libblkid1, libdatrie1, libavcodec61 (= 8:7.1.5~deb13u1+rkmpp), libavdevice61 (= 8:7.1.5~deb13u1+rkmpp), libavfilter10 (= 8:7.1.5~deb13u1+rkmpp), libavformat61 (= 8:7.1.5~deb13u1+rkmpp), libavutil59 (= 8:7.1.5~deb13u1+rkmpp), libpostproc58 (= 8:7.1.5~deb13u1+rkmpp), libswresample5 (= 8:7.1.5~deb13u1+rkmpp), libswscale8 (= 8:7.1.5~deb13u1+rkmpp)
+Filename: pool/non-free/f/ffmpeg/ffmpeg_trixie.deb
+Size: 206764
+MD5sum: c512c0b927b2c150ba963e32f58bd529
+SHA1: 7c87a17130520dd052fc69cd46a97e084bdac56f
+SHA256: 7db18f0de97a35ff9362e067a9f2026b2b68116519e00a15d0802f2b7f9ba2fe
+SHA512: 6c10f2b9c5aa77fbe4f85afa5928bb19629e603e9c62a60e06ec9d5768ea0d4634a70486dd7b074d9d20d5bf5f729f1ae8a22e5d3e24b3a951e3c312bc90d38d
+Description: FFmpeg with async and zero-copy Rockchip MPP & RGA support
+
+Package: ffmpeg-doc
+Essential: no
+Priority: optional
+Section: documents
+Installed-Size: 18432
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Filename: pool/non-free/f/ffmpeg-doc/ffmpeg-doc_trixie.deb
+Size: 752056
+MD5sum: 4ba4124976001bde96a8f755a5ce70a4
+SHA1: 9c628923391eb7f2fd8cdb2a00ba764d73398c64
+SHA256: 7a36fd4a8f03c667e5e8e5e005880b9b1e2f52116a8dfb8357eb8578fc68fdef
+SHA512: 62c27f94c6aab2706973f69a743b29e4ef37ada8c001d2a3b2f972aa2f1d45317e64e93e5daf4de16394f0b3d6179f5a9aceca6feaafd4201ccaf1af20456665
+Description: FFmpeg with async and zero-copy Rockchip MPP & RGA support. Ffmpeg documentation.
+
+Package: libavcodec-dev
+Essential: no
+Priority: optional
+Section: library
+Installed-Size: 308
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libavcodec61 (= 8:7.1.5~deb13u1+rkmpp)
+Filename: pool/non-free/liba/libavcodec-dev/libavcodec-dev_trixie.deb
+Size: 54808
+MD5sum: dc13b2331b6f5360f02ab9190668e596
+SHA1: 6fd9f12a52af4318645881c55f05f83246e4c997
+SHA256: c288123a932c446c17a13d11fe65141a2cc7346dff5b88ca60c8f915848f88dd
+SHA512: 8fa4f447289072a8a3dd9b18e81a6e02a257b126fab0551bb51ed0ac98be418782d9f0998bcf6d80f437b21b759422217394ed1c90f3a4e99f20550ad38c63eb
+Description: libavcodec development files.
+
+Package: libavcodec61
+Essential: no
+Priority: optional
+Section: library
+Installed-Size: 39808
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, libdrm2, libgcc-s1, libxcb1, libxcb-shm0, libxcb-shape0, libxcb-xfixes0, libasound2t64, libsdl2-2.0-0, libsndio7.0, libxv1, libx11-6, libxext6, libass9, libva2, rockchip-librga (>= 1.10.3~deb13u1+rkmpp), rockchip-mpp (>= 1.3.9~deb13u1+rkmpp), libfreetype6, libbz2-1.0, libgnutls30t64, zlib1g, libvpx9, liblzma5, libfdk-aac2t64, libmp3lame0, libopus0, libvorbis0a, libvorbisenc2, libx264-164, libx265-215, libva-drm2, libva-x11-2, libvdpau1, libxau6, libxdmcp6, libpulse0, libsamplerate0, libxcursor1, libxi6, libxfixes3, libxrandr2, libxss1, libgbm1, libwayland-egl1, libwayland-client0, libwayland-cursor0, libxkbcommon0, libdecor-0-0, libbsd0, libfribidi0, libharfbuzz0b, libunibreak6, libfontconfig1, libpng16-16t64, libbrotli1, libp11-kit0, libidn2-0, libunistring5, libtasn1-6, libhogweed6t64, libnettle8t64, libgmp10, libogg0, libnuma1, libx11-xcb1, libxcb-dri3-0, libdbus-1-3, libxrender1, libexpat1, libffi8, libmd0, libglib2.0-0t64, libgraphite2-3, libbrotli1, libsndfile1, libsystemd0, libasyncns0, libatomic1, libpcre2-8-0, libflac14, libmpg123-0t64, libcap2, libraw1394-11, libavc1394-0, libiec61883-0, libjack-jackd2-0, libopenal1, libcdio-paranoia2t64, libcdio-cdda2t64, libdc1394-25, libcaca0, libgl1, libv4l-0t64 (= 1.30~deb13u1+rkmpp), libpocketsphinx3, libsphinxbase3t64, libbs2b0, liblilv-0-0, librubberband2, libmysofa1, liblcms2-2, libplacebo349, libtesseract5, libzimg2, ocl-icd-libopencl1, libqrencode4, libdvdnav4, libdvdread8t64, libxml2, libgme0, libmodplug1, libopenmpt0t64, libchromaprint1, libbluray2, librist4, librtmp1, libsrt1.5-openssl, libsmbclient0, libwebpmux3, libaribb24-0t64, libdav1d7, libopencore-amrwb0, librsvg2-2, libcairo2, libzvbi0t64, libsnappy1v5, libaom3, libcodec2-1.2, libgsm1, liblc3-1, libopencore-amrnb0, libopenjp2-7, libshine3, libspeex1, libtheoraenc1, libtheoradec1, libtwolame0, libwebp7, libxvidcore4, libsoxr0, libgcrypt20, libdb5.3t64, libcdio19t64, libusb-1.0-0, libslang2, libncursesw6, libtinfo6, libglvnd0, libglx0, libv4lconvert0t64 (= 1.30~deb13u1+rkmpp), libblas3, liblapack3, libserd-0-0, libsord-0-0, libsratom-0-0, libzix-0-0, libfftw3-double3, libvulkan1, libarchive13t64, libcurl4t64, libleptonica6, libgomp1, libvorbisfile3, libudfread0, libmbedcrypto16, libcjson1, libssl3t64, samba-libs, libtevent0t64, libtalloc2, libgdk-pixbuf-2.0-0, libcairo-gobject2, libpangocairo-1.0-0, libpango-1.0-0, libxcb-render0, libpixman-1-0, libsharpyuv0, libgpg-error0, libudev1, libjpeg62-turbo, libgfortran5, libacl1, libzstd1, liblz4-1, libnghttp3-9, libnghttp2-14, libssh2-1t64, libpsl5t64, libgssapi-krb5-2, libldap2, libgif7, libtiff6, libtdb1, libicu76, libldb2, libmount1, libselinux1, libpangoft2-1.0-0, libthai0, libxxhash0, libkrb5-3, libk5crypto3, libcom-err2, libkrb5support0, libsasl2-2, liblerc4, libjbig0, libdeflate0, libwbclient0, libjansson4, libkeyutils1, libblkid1, libdatrie1
+Filename: pool/non-free/liba/libavcodec61/libavcodec61_trixie.deb
+Size: 10308436
+MD5sum: 84881b42b9b8ee7312c10e062fa20831
+SHA1: ec66e22e001d29efd91b54798f5a210aebe8cec8
+SHA256: f76745da1302e3e4f2d29a0a8d0bb011d9ec1500128f41ef975c9f6a0c823816
+SHA512: 355faf0a5d05cd228b9fbe2b73266f0cac2b18e60bda49d3335f6fc0d4c29b7892ba596e2f3517bbd4ce918607eb399c20bcec4a6f158c127efe589fec914392
+Description: The libavcodec library provides a generic encoding/decoding framework and contains multiple decoders and encoders for audio, video and subtitle streams, and several bitstream filters. The shared architecture provides various services ranging from bit stream I/O to DSP optimizations, and makes it suitable for implementing robust and fast codecs as well as for experimentation.
+
+Package: libavdevice-dev
+Essential: no
+Priority: optional
+Section: library
+Installed-Size: 36
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libavdevice61 (= 8:7.1.5~deb13u1+rkmpp)
+Filename: pool/non-free/liba/libavdevice-dev/libavdevice-dev_trixie.deb
+Size: 4892
+MD5sum: ce62bb34b63fee0c95334956e4ab1c1f
+SHA1: 51cf87423c042068abfdd1ebec6e62af856d2d67
+SHA256: 0e3606cc483f5b3a2438c10eee61b7639ccb3aae856750146b442f7708f82b77
+SHA512: 146eb1d95924b11a0f2be1d6a8e28cd6839ef6bae8ecbc5de7709bef6ef4b1b8a3258fb6a8e212c2a6564d40062a20e956ee90f815700416fbbed8bfde0632d5
+Description: libavdevice development files
+
+Package: libavdevice61
+Essential: no
+Priority: optional
+Section: library
+Installed-Size: 616
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libc6(>= 2.41), libstdc++6, libdrm2, libgcc-s1, libxcb1, libxcb-shm0, libxcb-shape0, libxcb-xfixes0, libasound2t64, libsdl2-2.0-0, libsndio7.0, libxv1, libx11-6, libxext6, libass9, libva2, rockchip-librga (>= 1.10.3~deb13u1+rkmpp), rockchip-mpp (>= 1.3.9~deb13u1+rkmpp), libfreetype6, libbz2-1.0, libgnutls30t64, zlib1g, libvpx9, liblzma5, libfdk-aac2t64, libmp3lame0, libopus0, libvorbis0a, libvorbisenc2, libx264-164, libx265-215, libva-drm2, libva-x11-2, libvdpau1, libxau6, libxdmcp6, libpulse0, libsamplerate0, libxcursor1, libxi6, libxfixes3, libxrandr2, libxss1, libgbm1, libwayland-egl1, libwayland-client0, libwayland-cursor0, libxkbcommon0, libdecor-0-0, libbsd0, libfribidi0, libharfbuzz0b, libunibreak6, libfontconfig1, libpng16-16t64, libbrotli1, libp11-kit0, libidn2-0, libunistring5, libtasn1-6, libhogweed6t64, libnettle8t64, libgmp10, libogg0, libnuma1, libx11-xcb1, libxcb-dri3-0, libdbus-1-3, libxrender1, libexpat1, libffi8, libmd0, libglib2.0-0t64, libgraphite2-3, libbrotli1, libsndfile1, libsystemd0, libasyncns0, libatomic1, libpcre2-8-0, libflac14, libmpg123-0t64, libcap2, libraw1394-11, libavc1394-0, libiec61883-0, libjack-jackd2-0, libopenal1, libcdio-paranoia2t64, libcdio-cdda2t64, libdc1394-25, libcaca0, libgl1, libv4l-0t64 (= 1.30~deb13u1+rkmpp), libpocketsphinx3, libsphinxbase3t64, libbs2b0, liblilv-0-0, librubberband2, libmysofa1, liblcms2-2, libplacebo349, libtesseract5, libzimg2, ocl-icd-libopencl1, libqrencode4, libdvdnav4, libdvdread8t64, libxml2, libgme0, libmodplug1, libopenmpt0t64, libchromaprint1, libbluray2, librist4, librtmp1, libsrt1.5-openssl, libsmbclient0, libwebpmux3, libaribb24-0t64, libdav1d7, libopencore-amrwb0, librsvg2-2, libcairo2, libzvbi0t64, libsnappy1v5, libaom3, libcodec2-1.2, libgsm1, liblc3-1, libopencore-amrnb0, libopenjp2-7, libshine3, libspeex1, libtheoraenc1, libtheoradec1, libtwolame0, libwebp7, libxvidcore4, libsoxr0, libgcrypt20, libdb5.3t64, libcdio19t64, libusb-1.0-0, libslang2, libncursesw6, libtinfo6, libglvnd0, libglx0, libv4lconvert0t64 (= 1.30~deb13u1+rkmpp), libblas3, liblapack3, libserd-0-0, libsord-0-0, libsratom-0-0, libzix-0-0, libfftw3-double3, libvulkan1, libarchive13t64, libcurl4t64, libleptonica6, libgomp1, libvorbisfile3, libudfread0, libmbedcrypto16, libcjson1, libssl3t64, samba-libs, libtevent0t64, libtalloc2, libgdk-pixbuf-2.0-0, libcairo-gobject2, libpangocairo-1.0-0, libpango-1.0-0, libxcb-render0, libpixman-1-0, libsharpyuv0, libgpg-error0, libudev1, libjpeg62-turbo, libgfortran5, libacl1, libzstd1, liblz4-1, libnghttp3-9, libnghttp2-14, libssh2-1t64, libpsl5t64, libgssapi-krb5-2, libldap2, libgif7, libtiff6, libtdb1, libicu76, libldb2, libmount1, libselinux1, libpangoft2-1.0-0, libthai0, libxxhash0, libkrb5-3, libk5crypto3, libcom-err2, libkrb5support0, libsasl2-2, liblerc4, libjbig0, libdeflate0, libwbclient0, libjansson4, libkeyutils1, libblkid1, libdatrie1
+Filename: pool/non-free/liba/libavdevice61/libavdevice61_trixie.deb
+Size: 58648
+MD5sum: 2218b69d2cdbb517422612f562250459
+SHA1: 052bbbe9330f1a751d71b846331c73aa375a9598
+SHA256: ba124c76d20229e2d9ab691729e85d546076e0e2bd8a912c31aeec4bb75e59d3
+SHA512: 7abcb66cea17c892281e29ae66710d274085764f40bffbe767b5c7a89a101bcedc3e96174a957d9a31c567e92711982dc0e9d25c40504fec821a3731a1a073ef
+Description: The libavdevice library provides a generic framework for grabbing from and rendering to many common multimedia input/output devices, and supports several input and output devices, including Video4Linux2, VfW, DShow, and ALSA.
+
+Package: libavfilter-dev
+Essential: no
+Priority: optional
+Section: library
+Installed-Size: 92
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libavfilter10 (= 8:7.1.5~deb13u1+rkmpp)
+Filename: pool/non-free/liba/libavfilter-dev/libavfilter-dev_trixie.deb
+Size: 16436
+MD5sum: be811d12c35989a49eb8c7754f9f4218
+SHA1: bce7348f063abbe471936b2e41e419204f5fcf17
+SHA256: 22d747f9b21e573d598058a8aa3ebd7cf5be9575966df59db0c4037282324c51
+SHA512: 8ddefac6b7d550177fef00867542845f3fdf040609707236c2342f6caf49d503c3e62c721ce232363fd3d434e736f4f3da7f4308cf5a55c41c1d868f9071e676
+Description: libavfilter development files
+
+Package: libavfilter10
+Essential: no
+Priority: optional
+Section: library
+Installed-Size: 37132
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libc6(>= 2.41), libstdc++6, libdrm2, libgcc-s1, libxcb1, libxcb-shm0, libxcb-shape0, libxcb-xfixes0, libasound2t64, libsdl2-2.0-0, libsndio7.0, libxv1, libx11-6, libxext6, libass9, libva2, rockchip-librga (>= 1.10.3~deb13u1+rkmpp), rockchip-mpp (>= 1.3.9~deb13u1+rkmpp), libfreetype6, libbz2-1.0, libgnutls30t64, zlib1g, libvpx9, liblzma5, libfdk-aac2t64, libmp3lame0, libopus0, libvorbis0a, libvorbisenc2, libx264-164, libx265-215, libva-drm2, libva-x11-2, libvdpau1, libxau6, libxdmcp6, libpulse0, libsamplerate0, libxcursor1, libxi6, libxfixes3, libxrandr2, libxss1, libgbm1, libwayland-egl1, libwayland-client0, libwayland-cursor0, libxkbcommon0, libdecor-0-0, libbsd0, libfribidi0, libharfbuzz0b, libunibreak6, libfontconfig1, libpng16-16t64, libbrotli1, libp11-kit0, libidn2-0, libunistring5, libtasn1-6, libhogweed6t64, libnettle8t64, libgmp10, libogg0, libnuma1, libx11-xcb1, libxcb-dri3-0, libdbus-1-3, libxrender1, libexpat1, libffi8, libmd0, libglib2.0-0t64, libgraphite2-3, libbrotli1, libsndfile1, libsystemd0, libasyncns0, libatomic1, libpcre2-8-0, libflac14, libmpg123-0t64, libcap2, libraw1394-11, libavc1394-0, libiec61883-0, libjack-jackd2-0, libopenal1, libcdio-paranoia2t64, libcdio-cdda2t64, libdc1394-25, libcaca0, libgl1, libv4l-0t64 (= 1.30~deb13u1+rkmpp), libpocketsphinx3, libsphinxbase3t64, libbs2b0, liblilv-0-0, librubberband2, libmysofa1, liblcms2-2, libplacebo349, libtesseract5, libzimg2, ocl-icd-libopencl1, libqrencode4, libdvdnav4, libdvdread8t64, libxml2, libgme0, libmodplug1, libopenmpt0t64, libchromaprint1, libbluray2, librist4, librtmp1, libsrt1.5-openssl, libsmbclient0, libwebpmux3, libaribb24-0t64, libdav1d7, libopencore-amrwb0, librsvg2-2, libcairo2, libzvbi0t64, libsnappy1v5, libaom3, libcodec2-1.2, libgsm1, liblc3-1, libopencore-amrnb0, libopenjp2-7, libshine3, libspeex1, libtheoraenc1, libtheoradec1, libtwolame0, libwebp7, libxvidcore4, libsoxr0, libgcrypt20, libdb5.3t64, libcdio19t64, libusb-1.0-0, libslang2, libncursesw6, libtinfo6, libglvnd0, libglx0, libv4lconvert0t64 (= 1.30~deb13u1+rkmpp), libblas3, liblapack3, libserd-0-0, libsord-0-0, libsratom-0-0, libzix-0-0, libfftw3-double3, libvulkan1, libarchive13t64, libcurl4t64, libleptonica6, libgomp1, libvorbisfile3, libudfread0, libmbedcrypto16, libcjson1, libssl3t64, samba-libs, libtevent0t64, libtalloc2, libgdk-pixbuf-2.0-0, libcairo-gobject2, libpangocairo-1.0-0, libpango-1.0-0, libxcb-render0, libpixman-1-0, libsharpyuv0, libgpg-error0, libudev1, libjpeg62-turbo, libgfortran5, libacl1, libzstd1, liblz4-1, libnghttp3-9, libnghttp2-14, libssh2-1t64, libpsl5t64, libgssapi-krb5-2, libldap2, libgif7, libtiff6, libtdb1, libicu76, libldb2, libmount1, libselinux1, libpangoft2-1.0-0, libthai0, libxxhash0, libkrb5-3, libk5crypto3, libcom-err2, libkrb5support0, libsasl2-2, liblerc4, libjbig0, libdeflate0, libwbclient0, libjansson4, libkeyutils1, libblkid1, libdatrie1
+Filename: pool/non-free/liba/libavfilter10/libavfilter10_trixie.deb
+Size: 6809992
+MD5sum: 0071b3b62b4fe2ff24555d6fe1544938
+SHA1: b38e08a2da6b33d442dd843eb03177c6548a5827
+SHA256: c755ae4f0b4bde32e90c7678e221374c92d07dfd9faa062e17ea7a1eeadc03e9
+SHA512: 2c4df5987db5ee6d3cb8877cc8aa39872b3717a22773592dce73a3d5b12d23a3c4a81d21679d3a69d6f347146cbbab0205d3577da7e99c95cc026f8ada3a3203
+Description: The libavfilter library provides a generic audio/video filtering framework containing several filters, sources and sinks.
+
+Package: libavformat-dev
+Essential: no
+Priority: optional
+Section: library
+Installed-Size: 172
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libavformat61 (= 8:7.1.5~deb13u1+rkmpp)
+Filename: pool/non-free/liba/libavformat-dev/libavformat-dev_trixie.deb
+Size: 35564
+MD5sum: da97b66729a1369062c834b749e06a33
+SHA1: 76c380ddf65945d658eaaa331b94dd41a43e2cc3
+SHA256: 0b19131d281b39b9e7e6aadc7bd85901d1bcf682509a4380d9805960e119d647
+SHA512: 82794a1914dbb35aa82c5f8627f1b040467d305d2c910c6448be978137e7fb20869857002d7217bf17e5d61cedf37b41c01df957f936d0e9a9a61f2ff1b5fe5b
+Description: libavformat development files
+
+Package: libavformat61
+Essential: no
+Priority: optional
+Section: library
+Installed-Size: 8104
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, libdrm2, libgcc-s1, libxcb1, libxcb-shm0, libxcb-shape0, libxcb-xfixes0, libasound2t64, libsdl2-2.0-0, libsndio7.0, libxv1, libx11-6, libxext6, libass9, libva2, rockchip-librga (>= 1.10.3~deb13u1+rkmpp), rockchip-mpp (>= 1.3.9~deb13u1+rkmpp), libfreetype6, libbz2-1.0, libgnutls30t64, zlib1g, libvpx9, liblzma5, libfdk-aac2t64, libmp3lame0, libopus0, libvorbis0a, libvorbisenc2, libx264-164, libx265-215, libva-drm2, libva-x11-2, libvdpau1, libxau6, libxdmcp6, libpulse0, libsamplerate0, libxcursor1, libxi6, libxfixes3, libxrandr2, libxss1, libgbm1, libwayland-egl1, libwayland-client0, libwayland-cursor0, libxkbcommon0, libdecor-0-0, libbsd0, libfribidi0, libharfbuzz0b, libunibreak6, libfontconfig1, libpng16-16t64, libbrotli1, libp11-kit0, libidn2-0, libunistring5, libtasn1-6, libhogweed6t64, libnettle8t64, libgmp10, libogg0, libnuma1, libx11-xcb1, libxcb-dri3-0, libdbus-1-3, libxrender1, libexpat1, libffi8, libmd0, libglib2.0-0t64, libgraphite2-3, libbrotli1, libsndfile1, libsystemd0, libasyncns0, libatomic1, libpcre2-8-0, libflac14, libmpg123-0t64, libcap2, libraw1394-11, libavc1394-0, libiec61883-0, libjack-jackd2-0, libopenal1, libcdio-paranoia2t64, libcdio-cdda2t64, libdc1394-25, libcaca0, libgl1, libv4l-0t64 (= 1.30~deb13u1+rkmpp), libpocketsphinx3, libsphinxbase3t64, libbs2b0, liblilv-0-0, librubberband2, libmysofa1, liblcms2-2, libplacebo349, libtesseract5, libzimg2, ocl-icd-libopencl1, libqrencode4, libdvdnav4, libdvdread8t64, libxml2, libgme0, libmodplug1, libopenmpt0t64, libchromaprint1, libbluray2, librist4, librtmp1, libsrt1.5-openssl, libsmbclient0, libwebpmux3, libaribb24-0t64, libdav1d7, libopencore-amrwb0, librsvg2-2, libcairo2, libzvbi0t64, libsnappy1v5, libaom3, libcodec2-1.2, libgsm1, liblc3-1, libopencore-amrnb0, libopenjp2-7, libshine3, libspeex1, libtheoraenc1, libtheoradec1, libtwolame0, libwebp7, libxvidcore4, libsoxr0, libgcrypt20, libdb5.3t64, libcdio19t64, libusb-1.0-0, libslang2, libncursesw6, libtinfo6, libglvnd0, libglx0, libv4lconvert0t64 (= 1.30~deb13u1+rkmpp), libblas3, liblapack3, libserd-0-0, libsord-0-0, libsratom-0-0, libzix-0-0, libfftw3-double3, libvulkan1, libarchive13t64, libcurl4t64, libleptonica6, libgomp1, libvorbisfile3, libudfread0, libmbedcrypto16, libcjson1, libssl3t64, samba-libs, libtevent0t64, libtalloc2, libgdk-pixbuf-2.0-0, libcairo-gobject2, libpangocairo-1.0-0, libpango-1.0-0, libxcb-render0, libpixman-1-0, libsharpyuv0, libgpg-error0, libudev1, libjpeg62-turbo, libgfortran5, libacl1, libzstd1, liblz4-1, libnghttp3-9, libnghttp2-14, libssh2-1t64, libpsl5t64, libgssapi-krb5-2, libldap2, libgif7, libtiff6, libtdb1, libicu76, libldb2, libmount1, libselinux1, libpangoft2-1.0-0, libthai0, libxxhash0, libkrb5-3, libk5crypto3, libcom-err2, libkrb5support0, libsasl2-2, liblerc4, libjbig0, libdeflate0, libwbclient0, libjansson4, libkeyutils1, libblkid1, libdatrie1
+Filename: pool/non-free/liba/libavformat61/libavformat61_trixie.deb
+Size: 997740
+MD5sum: f818f3070a43140ee5e679dcaac2f9c4
+SHA1: 03ea83f8130cbb1ce0dc38e3f0860a328f16bd0e
+SHA256: ae0e77e63e3ee5e6720a9faec313484795816ddcb87f268a799fcc15f93798d6
+SHA512: f753d7c80095f59f5dad357824fdecf90f3c9376a09f04a9da21d8639cd08d406748b95cca5276fe6209460a327f0db8843cc3b122d02ef084d72044f6b0f214
+Description: The libavformat library provides a generic framework for multiplexing and demultiplexing (muxing and demuxing) audio, video and subtitle streams. It encompasses multiple muxers and demuxers for multimedia container formats. It also supports several input and output protocols to access a media resource.
+
+Package: libavutil-dev
+Essential: no
+Priority: optional
+Section: library
+Installed-Size: 900
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libavutil59 (= 8:7.1.5~deb13u1+rkmpp)
+Filename: pool/non-free/liba/libavutil-dev/libavutil-dev_trixie.deb
+Size: 129124
+MD5sum: 923b08a9b9aa035af57aca05b09e3acc
+SHA1: 1b90f9ae7e8f87fbd2c2c84c58c05178a98163bf
+SHA256: 45ad4633696218300377017f70420f4f206fede61a1add62d62b2ef2b8dc0ae0
+SHA512: 8afc294c668dbf7f3dd7e9413a29bb5a72942b49691d3dce83c0ffa026314fe3b2017f3b49890628c5791f791d903c59078e5f4d85fe9af83c3aa2fe764645e9
+Description: libavutil development files
+
+Package: libavutil59
+Essential: no
+Priority: optional
+Section: library
+Installed-Size: 2908
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, libdrm2, libgcc-s1, libxcb1, libxcb-shm0, libxcb-shape0, libxcb-xfixes0, libasound2t64, libsdl2-2.0-0, libsndio7.0, libxv1, libx11-6, libxext6, libass9, libva2, rockchip-librga (>= 1.10.3~deb13u1+rkmpp), rockchip-mpp (>= 1.3.9~deb13u1+rkmpp), libfreetype6, libbz2-1.0, libgnutls30t64, zlib1g, libvpx9, liblzma5, libfdk-aac2t64, libmp3lame0, libopus0, libvorbis0a, libvorbisenc2, libx264-164, libx265-215, libva-drm2, libva-x11-2, libvdpau1, libxau6, libxdmcp6, libpulse0, libsamplerate0, libxcursor1, libxi6, libxfixes3, libxrandr2, libxss1, libgbm1, libwayland-egl1, libwayland-client0, libwayland-cursor0, libxkbcommon0, libdecor-0-0, libbsd0, libfribidi0, libharfbuzz0b, libunibreak6, libfontconfig1, libpng16-16t64, libbrotli1, libp11-kit0, libidn2-0, libunistring5, libtasn1-6, libhogweed6t64, libnettle8t64, libgmp10, libogg0, libnuma1, libx11-xcb1, libxcb-dri3-0, libdbus-1-3, libxrender1, libexpat1, libffi8, libmd0, libglib2.0-0t64, libgraphite2-3, libbrotli1, libsndfile1, libsystemd0, libasyncns0, libatomic1, libpcre2-8-0, libflac14, libmpg123-0t64, libcap2, libraw1394-11, libavc1394-0, libiec61883-0, libjack-jackd2-0, libopenal1, libcdio-paranoia2t64, libcdio-cdda2t64, libdc1394-25, libcaca0, libgl1, libv4l-0t64 (>= 1.30~deb13u1+rkmpp), libpocketsphinx3, libsphinxbase3t64, libbs2b0, liblilv-0-0, librubberband2, libmysofa1, liblcms2-2, libplacebo349, libtesseract5, libzimg2, ocl-icd-libopencl1, libqrencode4, libdvdnav4, libdvdread8t64, libxml2, libgme0, libmodplug1, libopenmpt0t64, libchromaprint1, libbluray2, librist4, librtmp1, libsrt1.5-openssl, libsmbclient0, libwebpmux3, libaribb24-0t64, libdav1d7, libopencore-amrwb0, librsvg2-2, libcairo2, libzvbi0t64, libsnappy1v5, libaom3, libcodec2-1.2, libgsm1, liblc3-1, libopencore-amrnb0, libopenjp2-7, libshine3, libspeex1, libtheoraenc1, libtheoradec1, libtwolame0, libwebp7, libxvidcore4, libsoxr0, libgcrypt20, libdb5.3t64, libcdio19t64, libusb-1.0-0, libslang2, libncursesw6, libtinfo6, libglvnd0, libglx0, libv4lconvert0t64 (>= 1.30~deb13u1+rkmpp), libblas3, liblapack3, libserd-0-0, libsord-0-0, libsratom-0-0, libzix-0-0, libfftw3-double3, libvulkan1, libarchive13t64, libcurl4t64, libleptonica6, libgomp1, libvorbisfile3, libudfread0, libmbedcrypto16, libcjson1, libssl3t64, samba-libs, libtevent0t64, libtalloc2, libgdk-pixbuf-2.0-0, libcairo-gobject2, libpangocairo-1.0-0, libpango-1.0-0, libxcb-render0, libpixman-1-0, libsharpyuv0, libgpg-error0, libudev1, libjpeg62-turbo, libgfortran5, libacl1, libzstd1, liblz4-1, libnghttp3-9, libnghttp2-14, libssh2-1t64, libpsl5t64, libgssapi-krb5-2, libldap2, libgif7, libtiff6, libtdb1, libicu76, libldb2, libmount1, libselinux1, libpangoft2-1.0-0, libthai0, libxxhash0, libkrb5-3, libk5crypto3, libcom-err2, libkrb5support0, libsasl2-2, liblerc4, libjbig0, libdeflate0, libwbclient0, libjansson4, libkeyutils1, libblkid1, libdatrie1
+Filename: pool/non-free/liba/libavutil59/libavutil59_trixie.deb
+Size: 312256
+MD5sum: b47bf097eb4cb8ca5fbd41a3825a7bab
+SHA1: 4e75c600754c9388e366d449e23375883952aa70
+SHA256: 18c724e289ab96ea15cdd01713a19b6a3659b1982dd05577d7141ee30c9e60c6
+SHA512: 06871f426cfaabfce469ee4620fe60841a62511ecbea664042f1069473f0327032d287a85abd573243d1abbc55ac4e00916276055898e2a3ed57e4d24007dc42
+Description: The libavutil library is a utility library to aid portable multimedia programming. It contains safe portable string functions, random number generators, data structures, additional mathematics functions, cryptography and multimedia related functionality (like enumerations for pixel and sample formats). It is not a library for code needed by both libavcodec and libavformat.
+
+Package: libfdk-aac-dev
+Priority: optional
+Section: non-free/libdevel
+Installed-Size: 2239
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Architecture: arm64
+Source: fdk-aac
+Version: 2.0.3-1
+Depends: libfdk-aac2t64 (= 2.0.3-1), pkg-config
+Filename: pool/non-free/f/fdk-aac/libfdk-aac-dev_2.0.3-1_arm64_trixie.deb
+Size: 705404
+MD5sum: 4aa9dfe65b71b701ea8250e586aa31c6
+SHA1: 6cdaca62c2c8c1b8efc0db90d82afa86ee9d23b3
+SHA256: aa3811523b85f3862f58119e0cc424b3a548d75bbe55b5957c23c88d7162cf5d
+SHA512: 450e910a04d77765d4a0652fe18180adebfaa8da5875920596a2370785aa46ec6c82e253ba5a6ca1f14edb74b8522371ad251797700cd3202194668678064f37
+Description: Fraunhofer FDK AAC Codec Library - development files
+ The FDK AAC Codec Library For Android contains an encoder implementation
+ of the Advanced Audio Coding (AAC) audio codec.
+ .
+ This package contains the files needed to compile and statically link
+ against the Fraunhofer FDK AAC Codec Library.
+Homepage: https://github.com/mstorsjo/fdk-aac
+Multi-Arch: same
+
+Package: libfdk-aac2t64
+Priority: optional
+Section: non-free/libs
+Installed-Size: 1244
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Architecture: arm64
+Source: fdk-aac
+Version: 2.0.3-1
+Replaces: libfdk-aac2
+Provides: libfdk-aac2 (= 2.0.3-1)
+Depends: libc6 (>= 2.17)
+Breaks: libfdk-aac2 (<< 2.0.3-1)
+Filename: pool/non-free/f/fdk-aac/libfdk-aac2t64_2.0.3-1_arm64_trixie.deb
+Size: 578892
+MD5sum: f03f85ad867e0e8544647f85f8ba9332
+SHA1: 78913b0aabe8a401f9a83ed62ae6a295ddb16e0e
+SHA256: 00c5e5fbc209a7e859765ae0751117c01ace9b809e1bd559cfcbd3d31373d3e5
+SHA512: 74ac8db40308413988df028be71e46baf5e07e2b095ccd647c290cf361e3e5787f681e9a9a2e1bfc431ead36dda98e958409f8fca2f0a717f6a745c0d58f8866
+Description: Fraunhofer FDK AAC Codec Library - runtime files
+ The FDK AAC Codec Library For Android contains an encoder implementation
+ of the Advanced Audio Coding (AAC) audio codec.
+ .
+ This package contains the files needed to run a program compiled using
+ The Fraunhofer FDK AAC Codec Library.
+Homepage: https://github.com/mstorsjo/fdk-aac
+Multi-Arch: same
+
+Package: libpostproc-dev
+Essential: no
+Priority: optional
+Section: library
+Installed-Size: 24
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libpostproc58 (= 8:7.1.5~deb13u1+rkmpp)
+Filename: pool/non-free/libp/libpostproc-dev/libpostproc-dev_trixie.deb
+Size: 2432
+MD5sum: cc34abadaad756c78727a60f0b9aa80e
+SHA1: 48b9a53d87481e6a58af10b6e0b3b34f48977ef2
+SHA256: 2c59d230e121f717ff60088d29794277d13c8844f59c3d9fa19c28297d22d1c1
+SHA512: c44d3fe37af12c6079f9ee80cb5edfb66ac33e5dcd08bd8e9a16068fd14b599bc3060006e4923a57c70c218d5a7c30d9bfc7b251c8d0a7b269cca909be6b9ff3
+Description: libpostproc development files
+
+Package: libpostproc58
+Essential: no
+Priority: optional
+Section: library
+Installed-Size: 220
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, libdrm2, libgcc-s1, libxcb1, libxcb-shm0, libxcb-shape0, libxcb-xfixes0, libasound2t64, libsdl2-2.0-0, libsndio7.0, libxv1, libx11-6, libxext6, libass9, libva2, rockchip-librga (>= 1.10.3~deb13u1+rkmpp), rockchip-mpp (>= 1.3.9~deb13u1+rkmpp), libfreetype6, libbz2-1.0, libgnutls30t64, zlib1g, libvpx9, liblzma5, libfdk-aac2t64, libmp3lame0, libopus0, libvorbis0a, libvorbisenc2, libx264-164, libx265-215, libva-drm2, libva-x11-2, libvdpau1, libxau6, libxdmcp6, libpulse0, libsamplerate0, libxcursor1, libxi6, libxfixes3, libxrandr2, libxss1, libgbm1, libwayland-egl1, libwayland-client0, libwayland-cursor0, libxkbcommon0, libdecor-0-0, libbsd0, libfribidi0, libharfbuzz0b, libunibreak6, libfontconfig1, libpng16-16t64, libbrotli1, libp11-kit0, libidn2-0, libunistring5, libtasn1-6, libhogweed6t64, libnettle8t64, libgmp10, libogg0, libnuma1, libx11-xcb1, libxcb-dri3-0, libdbus-1-3, libxrender1, libexpat1, libffi8, libmd0, libglib2.0-0t64, libgraphite2-3, libbrotli1, libsndfile1, libsystemd0, libasyncns0, libatomic1, libpcre2-8-0, libflac14, libmpg123-0t64, libcap2, libraw1394-11, libavc1394-0, libiec61883-0, libjack-jackd2-0, libopenal1, libcdio-paranoia2t64, libcdio-cdda2t64, libdc1394-25, libcaca0, libgl1, libv4l-0t64 (= 1.30~deb13u1+rkmpp), libpocketsphinx3, libsphinxbase3t64, libbs2b0, liblilv-0-0, librubberband2, libmysofa1, liblcms2-2, libplacebo349, libtesseract5, libzimg2, ocl-icd-libopencl1, libqrencode4, libdvdnav4, libdvdread8t64, libxml2, libgme0, libmodplug1, libopenmpt0t64, libchromaprint1, libbluray2, librist4, librtmp1, libsrt1.5-openssl, libsmbclient0, libwebpmux3, libaribb24-0t64, libdav1d7, libopencore-amrwb0, librsvg2-2, libcairo2, libzvbi0t64, libsnappy1v5, libaom3, libcodec2-1.2, libgsm1, liblc3-1, libopencore-amrnb0, libopenjp2-7, libshine3, libspeex1, libtheoraenc1, libtheoradec1, libtwolame0, libwebp7, libxvidcore4, libsoxr0, libgcrypt20, libdb5.3t64, libcdio19t64, libusb-1.0-0, libslang2, libncursesw6, libtinfo6, libglvnd0, libglx0, libv4lconvert0t64 (= 1.30~deb13u1+rkmpp), libblas3, liblapack3, libserd-0-0, libsord-0-0, libsratom-0-0, libzix-0-0, libfftw3-double3, libvulkan1, libarchive13t64, libcurl4t64, libleptonica6, libgomp1, libvorbisfile3, libudfread0, libmbedcrypto16, libcjson1, libssl3t64, samba-libs, libtevent0t64, libtalloc2, libgdk-pixbuf-2.0-0, libcairo-gobject2, libpangocairo-1.0-0, libpango-1.0-0, libxcb-render0, libpixman-1-0, libsharpyuv0, libgpg-error0, libudev1, libjpeg62-turbo, libgfortran5, libacl1, libzstd1, liblz4-1, libnghttp3-9, libnghttp2-14, libssh2-1t64, libpsl5t64, libgssapi-krb5-2, libldap2, libgif7, libtiff6, libtdb1, libicu76, libldb2, libmount1, libselinux1, libpangoft2-1.0-0, libthai0, libxxhash0, libkrb5-3, libk5crypto3, libcom-err2, libkrb5support0, libsasl2-2, liblerc4, libjbig0, libdeflate0, libwbclient0, libjansson4, libkeyutils1, libblkid1, libdatrie1
+Filename: pool/non-free/libp/libpostproc58/libpostproc58_trixie.deb
+Size: 22720
+MD5sum: ca66a7b9ff253a06df1249c99cecbdbc
+SHA1: 82a08e4c9f255ca3bbed959bea8f73d484f038fb
+SHA256: f9f93929c64f3c13172a6b2a9373e2c0d24feb308aed93750e884d4834ae0276
+SHA512: 3793903f1c81d0ad2d078f47942cd2c0bbdb419dca5a4d90f1ab096f505154cddcbba4a4d74be1814cf7a6f795f5eb8f44ec135a10e8c833f724a8f51e52ff0e
+Description: Video postprocessing library.
+
+Package: libswresample-dev
+Essential: no
+Priority: optional
+Section: library
+Installed-Size: 44
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libswresample5 (= 8:7.1.5~deb13u1+rkmpp)
+Filename: pool/non-free/libs/libswresample-dev/libswresample-dev_trixie.deb
+Size: 7452
+MD5sum: 9977657a7b5644b807562b08c28c3331
+SHA1: d085a9837790aa3c330780264c81e82e662d23c3
+SHA256: d4f23476611cedf0a03b53696cbc2b0d80746d394f56e90b22dfbe5b915a5ed7
+SHA512: 07357e8aada261dcfac324081493094107a0ec66d2d89675269adbf045837aa2ef2fa7bd80f5d72f83b62b15e2776cdec97078c47c7ab467f401d1f2ca794b41
+Description: libswresample development files
+
+Package: libswresample5
+Essential: no
+Priority: optional
+Section: library
+Installed-Size: 412
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, libdrm2, libgcc-s1, libxcb1, libxcb-shm0, libxcb-shape0, libxcb-xfixes0, libasound2t64, libsdl2-2.0-0, libsndio7.0, libxv1, libx11-6, libxext6, libass9, libva2, rockchip-librga (>= 1.10.3~deb13u1+rkmpp), rockchip-mpp (>= 1.3.9~deb13u1+rkmpp), libfreetype6, libbz2-1.0, libgnutls30t64, zlib1g, libvpx9, liblzma5, libfdk-aac2t64, libmp3lame0, libopus0, libvorbis0a, libvorbisenc2, libx264-164, libx265-215, libva-drm2, libva-x11-2, libvdpau1, libxau6, libxdmcp6, libpulse0, libsamplerate0, libxcursor1, libxi6, libxfixes3, libxrandr2, libxss1, libgbm1, libwayland-egl1, libwayland-client0, libwayland-cursor0, libxkbcommon0, libdecor-0-0, libbsd0, libfribidi0, libharfbuzz0b, libunibreak6, libfontconfig1, libpng16-16t64, libbrotli1, libp11-kit0, libidn2-0, libunistring5, libtasn1-6, libhogweed6t64, libnettle8t64, libgmp10, libogg0, libnuma1, libx11-xcb1, libxcb-dri3-0, libdbus-1-3, libxrender1, libexpat1, libffi8, libmd0, libglib2.0-0t64, libgraphite2-3, libbrotli1, libsndfile1, libsystemd0, libasyncns0, libatomic1, libpcre2-8-0, libflac14, libmpg123-0t64, libcap2, libraw1394-11, libavc1394-0, libiec61883-0, libjack-jackd2-0, libopenal1, libcdio-paranoia2t64, libcdio-cdda2t64, libdc1394-25, libcaca0, libgl1, libv4l-0t64 (= 1.30~deb13u1+rkmpp), libpocketsphinx3, libsphinxbase3t64, libbs2b0, liblilv-0-0, librubberband2, libmysofa1, liblcms2-2, libplacebo349, libtesseract5, libzimg2, ocl-icd-libopencl1, libqrencode4, libdvdnav4, libdvdread8t64, libxml2, libgme0, libmodplug1, libopenmpt0t64, libchromaprint1, libbluray2, librist4, librtmp1, libsrt1.5-openssl, libsmbclient0, libwebpmux3, libaribb24-0t64, libdav1d7, libopencore-amrwb0, librsvg2-2, libcairo2, libzvbi0t64, libsnappy1v5, libaom3, libcodec2-1.2, libgsm1, liblc3-1, libopencore-amrnb0, libopenjp2-7, libshine3, libspeex1, libtheoraenc1, libtheoradec1, libtwolame0, libwebp7, libxvidcore4, libsoxr0, libgcrypt20, libdb5.3t64, libcdio19t64, libusb-1.0-0, libslang2, libncursesw6, libtinfo6, libglvnd0, libglx0, libv4lconvert0t64 (= 1.30~deb13u1+rkmpp), libblas3, liblapack3, libserd-0-0, libsord-0-0, libsratom-0-0, libzix-0-0, libfftw3-double3, libvulkan1, libarchive13t64, libcurl4t64, libleptonica6, libgomp1, libvorbisfile3, libudfread0, libmbedcrypto16, libcjson1, libssl3t64, samba-libs, libtevent0t64, libtalloc2, libgdk-pixbuf-2.0-0, libcairo-gobject2, libpangocairo-1.0-0, libpango-1.0-0, libxcb-render0, libpixman-1-0, libsharpyuv0, libgpg-error0, libudev1, libjpeg62-turbo, libgfortran5, libacl1, libzstd1, liblz4-1, libnghttp3-9, libnghttp2-14, libssh2-1t64, libpsl5t64, libgssapi-krb5-2, libldap2, libgif7, libtiff6, libtdb1, libicu76, libldb2, libmount1, libselinux1, libpangoft2-1.0-0, libthai0, libxxhash0, libkrb5-3, libk5crypto3, libcom-err2, libkrb5support0, libsasl2-2, liblerc4, libjbig0, libdeflate0, libwbclient0, libjansson4, libkeyutils1, libblkid1, libdatrie1
+Filename: pool/non-free/libs/libswresample5/libswresample5_trixie.deb
+Size: 36208
+MD5sum: 79197a8bf5f1ecd0d21b0e4d89003e24
+SHA1: b2863e678f456430fa2794cbe6946d86f7eaf794
+SHA256: dc88dcb1ea54f1a6ca1cced4d9139dd93566a48ac8cac0d26c7051035ae32f45
+SHA512: f1e03e62293efc274f2bb39db02ce7b6aa5676d462a2c89a021485a054ace8f14d8ea8e81ee77a3ef7fe6b1ecd7ac881f0a4c5c4b66418f1dc4954d89cc143cb
+Description: The libswresample library performs highly optimized audio resampling, rematrixing and sample format conversion operations.
+
+Package: libswscale-dev
+Essential: no
+Priority: optional
+Section: library
+Installed-Size: 40
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libswscale8 (= 8:7.1.5~deb13u1+rkmpp)
+Filename: pool/non-free/libs/libswscale-dev/libswscale-dev_trixie.deb
+Size: 6080
+MD5sum: 41b2eedfbc1a790cf5e9fae1aecf15f8
+SHA1: 2e861a7a6496a2b16d55c30c29567e2b8fa1c498
+SHA256: 9058863db7159e3af47b1107d3b78489526099e515901e5a7c24398a69120106
+SHA512: bee902ac2e9549a4eae5457d782f9cc09b1b678cb884a4461145c6733801ec4716bbe037f95fec044f16fbd79bae94bfaafea896dbe1f8076c0fbe429b058e8e
+Description: libswscale development files
+
+Package: libswscale8
+Essential: no
+Priority: optional
+Section: library
+Installed-Size: 1372
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 8:7.1.5~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, libdrm2, libgcc-s1, libxcb1, libxcb-shm0, libxcb-shape0, libxcb-xfixes0, libasound2t64, libsdl2-2.0-0, libsndio7.0, libxv1, libx11-6, libxext6, libass9, libva2, rockchip-librga (>= 1.10.3~deb13u1+rkmpp), rockchip-mpp (>= 1.3.9~deb13u1+rkmpp), libfreetype6, libbz2-1.0, libgnutls30t64, zlib1g, libvpx9, liblzma5, libfdk-aac2t64, libmp3lame0, libopus0, libvorbis0a, libvorbisenc2, libx264-164, libx265-215, libva-drm2, libva-x11-2, libvdpau1, libxau6, libxdmcp6, libpulse0, libsamplerate0, libxcursor1, libxi6, libxfixes3, libxrandr2, libxss1, libgbm1, libwayland-egl1, libwayland-client0, libwayland-cursor0, libxkbcommon0, libdecor-0-0, libbsd0, libfribidi0, libharfbuzz0b, libunibreak6, libfontconfig1, libpng16-16t64, libbrotli1, libp11-kit0, libidn2-0, libunistring5, libtasn1-6, libhogweed6t64, libnettle8t64, libgmp10, libogg0, libnuma1, libx11-xcb1, libxcb-dri3-0, libdbus-1-3, libxrender1, libexpat1, libffi8, libmd0, libglib2.0-0t64, libgraphite2-3, libbrotli1, libsndfile1, libsystemd0, libasyncns0, libatomic1, libpcre2-8-0, libflac14, libmpg123-0t64, libcap2, libraw1394-11, libavc1394-0, libiec61883-0, libjack-jackd2-0, libopenal1, libcdio-paranoia2t64, libcdio-cdda2t64, libdc1394-25, libcaca0, libgl1, libv4l-0t64 (= 1.30~deb13u1+rkmpp), libpocketsphinx3, libsphinxbase3t64, libbs2b0, liblilv-0-0, librubberband2, libmysofa1, liblcms2-2, libplacebo349, libtesseract5, libzimg2, ocl-icd-libopencl1, libqrencode4, libdvdnav4, libdvdread8t64, libxml2, libgme0, libmodplug1, libopenmpt0t64, libchromaprint1, libbluray2, librist4, librtmp1, libsrt1.5-openssl, libsmbclient0, libwebpmux3, libaribb24-0t64, libdav1d7, libopencore-amrwb0, librsvg2-2, libcairo2, libzvbi0t64, libsnappy1v5, libaom3, libcodec2-1.2, libgsm1, liblc3-1, libopencore-amrnb0, libopenjp2-7, libshine3, libspeex1, libtheoraenc1, libtheoradec1, libtwolame0, libwebp7, libxvidcore4, libsoxr0, libgcrypt20, libdb5.3t64, libcdio19t64, libusb-1.0-0, libslang2, libncursesw6, libtinfo6, libglvnd0, libglx0, libv4lconvert0t64 (= 1.30~deb13u1+rkmpp), libblas3, liblapack3, libserd-0-0, libsord-0-0, libsratom-0-0, libzix-0-0, libfftw3-double3, libvulkan1, libarchive13t64, libcurl4t64, libleptonica6, libgomp1, libvorbisfile3, libudfread0, libmbedcrypto16, libcjson1, libssl3t64, samba-libs, libtevent0t64, libtalloc2, libgdk-pixbuf-2.0-0, libcairo-gobject2, libpangocairo-1.0-0, libpango-1.0-0, libxcb-render0, libpixman-1-0, libsharpyuv0, libgpg-error0, libudev1, libjpeg62-turbo, libgfortran5, libacl1, libzstd1, liblz4-1, libnghttp3-9, libnghttp2-14, libssh2-1t64, libpsl5t64, libgssapi-krb5-2, libldap2, libgif7, libtiff6, libtdb1, libicu76, libldb2, libmount1, libselinux1, libpangoft2-1.0-0, libthai0, libxxhash0, libkrb5-3, libk5crypto3, libcom-err2, libkrb5support0, libsasl2-2, liblerc4, libjbig0, libdeflate0, libwbclient0, libjansson4, libkeyutils1, libblkid1, libdatrie1
+Filename: pool/non-free/libs/libswscale8/libswscale8_trixie.deb
+Size: 140828
+MD5sum: 5dc533a34488e0b47edb276a6673b429
+SHA1: 6ba11c0d4dca385da1a2ba152367f6feec7debd2
+SHA256: 4fb070e6531924a83570d838b0f26991ea769beeef9fd53f8ae3f9ae6b69d98b
+SHA512: ead9559ec5523849b627b2d4f088528dbee3788cd9a8fa6bc2037c527b918ec40df220163a810af2f3460fdf8927f28a3e1d2756ea6320a8b2573da9d15eb054
+Description: The libswscale library performs highly optimized image scaling and colorspace and pixel format conversion operations.
+
+Package: libv4l-0t64
+Essential: no
+Priority: optional
+Section: media
+Installed-Size: 4472
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 1.30~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, libudev1, libcap2, libgcc-s1, libv4lconvert0t64 (= 1.30~deb13u1+rkmpp), libjpeg62-turbo, libv4l2rds0t64 (= 1.30~deb13u1+rkmpp)
+Filename: pool/non-free/libv/libv4l-0t64/v4l-utils-lib_trixie.deb
+Size: 454760
+MD5sum: 220d32e017e1f4f94bce2cbacad20d45
+SHA1: 7ad9b45f7bb2a9fafb7749544e54a046aafe663e
+SHA256: e6be5b763dd7e371236649c89e7fa314b21715d19ed357b8695934923d76ccac
+SHA512: 38c2463d276fcc3e181fb33e0bcd2e3ca7b1491b96d0f2d3d0d9d26041aa322299b7943b2b2176c55385e55ec056dbca3155ed99ff137ea3d57a2376d9d88ecd
+Description: library for v4l-utils with patches for work RKMPP by JeffyCN
+
+Package: libv4l-rkmpp
+Essential: no
+Priority: optional
+Section: media
+Installed-Size: 228
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 1.8.0~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, rockchip-mpp (>= 1.3.9~deb13u1+rkmpp), v4l-utils (= 1.30~deb13u1+rkmpp), rockchip-multimedia-config
+Filename: pool/non-free/libv/libv4l-rkmpp/libv4l-rkmpp_trixie.deb
+Size: 45000
+MD5sum: 748e62455e24853a51bdcd8673e5dbeb
+SHA1: 888a3c79abecd36d9a1a61c4fadf1f190610e822
+SHA256: dd36e8c1be281c949424b5e9e527bfb79304dfc0354d79aa93758780bf6cafce
+SHA512: cf6155104b1c98979b865d8999121ada237889587d77f07dccfcacf87e1ce49c1b80f785d77b54b1575a8cfc7ac267736583a330cc2182f5602a659982e33ff4
+Description: A V4L2 plugin that wraps rockchip-mpp for the chromium's V4L2 video decoder/VEA (requires custom patches to enable those features).
+
+Package: libv4l2rds0t64
+Essential: no
+Priority: optional
+Section: media
+Installed-Size: 344
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 1.30~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, libudev1, libcap2, libgcc-s1, libjpeg62-turbo
+Filename: pool/non-free/libv/libv4l2rds0t64/libv4l2rds0t64_trixie.deb
+Size: 26160
+MD5sum: caa0e209277b5ca90df7cd57aaf44612
+SHA1: a3ddff57e208fc1d07a00791effcfba64e0ff238
+SHA256: 85ff1a3bf6baca1020caa6c72c8a32ed6826015e4585eae9a67cd827b4b423a1
+SHA512: e9a9b904e6468b17b52b0c174d3f909a2c6fe2e721ad00d0b41b7d2eb8143780b7285a734f3759dde5296297233c443f6ed4aefafa44235910f15e4ae7c9ccfa
+Description: Linux utilities and libraries to handle media devices (TV devices, capture devices, radio devices, remote controllers).
+
+Package: libv4lconvert0t64
+Essential: no
+Priority: optional
+Section: media
+Installed-Size: 2020
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 1.30~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, libudev1, libcap2, libgcc-s1, libjpeg62-turbo
+Filename: pool/non-free/libv/libv4lconvert0t64/libv4lconvert0t64_trixie.deb
+Size: 211944
+MD5sum: 01eb7371d84a5e275abd1575ed383d11
+SHA1: 8fe9c7c121db53d360a338f5a4335d41b3e1d7c5
+SHA256: af4d20f75ad5cbb4b737cc8e89d6d931d75a19b11289c4e220f45ff3df4c5d17
+SHA512: 7039c0029d508e237388740edebe22f2d25507ae555f70a20e435c787292a53f283f6a78bf2645f4d84fe942a56f0a3b96dda461b7fca5502d99416a55e896cf
+Description: Linux utilities and libraries to handle media devices (TV devices, capture devices, radio devices, remote controllers).
+
+Package: moonlight
+Essential: no
+Priority: optional
+Section: media
+Installed-Size: 36084
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 6.1.0~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, libgcc-s1, ffmpeg, libssl3t64, libsdl2-ttf-2.0-0, libvpx9, libwebpmux3, liblcms2-2, rockchip-librga (>= 1.10.3~deb13u1+rkmpp), libaribb24-0t64, libdav1d7, libopencore-amrwb0, librsvg2-2, libglib2.0-0t64, libcairo2, libzvbi0t64, libsnappy1v5, libaom3, libcodec2-1.2, libfdk-aac2t64, libgsm1, liblc3-1, libmp3lame0, libopencore-amrnb0, libopenjp2-7, libopus0, libshine3, libspeex1, libtheoraenc1, libtheoradec1, libtwolame0, libvorbis0a, libvorbisenc2, libwebp7, libx264-164, libx265-215, libxvidcore4, zlib1g, libsoxr0, libvdpau1, libgcrypt20, ocl-icd-libopencl1, rockchip-mpp (>= 1.3.9~deb13u1+rkmpp), libdrm2, libx11-6, libva-x11-2, libva-wayland2, libwayland-client0, libva-drm2, libva2, libqt6quickcontrols2-6, libqt6quick6, libqt6svg6, libqt6gui6, libopengl0, libqt6qml6, libqt6network6, libqt6core6t64, libegl1, libzstd1, libfreetype6, libharfbuzz0b, libasound2t64, libpulse0, libsamplerate0, libxext6, libxcursor1, libxi6, libxfixes3, libxrandr2, libxss1, libgbm1, libwayland-egl1, libwayland-cursor0, libxkbcommon0, libdecor-0-0, libpng16-16t64, libgdk-pixbuf-2.0-0, libcairo-gobject2, libxml2, libpangocairo-1.0-0, libpango-1.0-0, libffi8, libatomic1, libpcre2-8-0, libfontconfig1, libxrender1, libxcb1, libxcb-render0, libxcb-shm0, libpixman-1-0, libogg0, libsharpyuv0, libnuma1, libgomp1, libgpg-error0, libx11-xcb1, libxcb-dri3-0, libqt6quicktemplates2-6, libqt6qmlmeta6, libqt6qmlmodels6, libqt6opengl6, libqt6dbus6, libglx0, libmd4c0, libglvnd0, libgssapi-krb5-2, libbrotli1, libproxy1v5, libicu76, libdouble-conversion3, libb2-1, libpcre2-16-0, libbz2-1.0, libgraphite2-3, libdbus-1-3, libexpat1, libmount1, libselinux1, libjpeg62-turbo, libpangoft2-1.0-0, libfribidi0, libthai0, libxau6, libxdmcp6, libqt6qmlworkerscript6, libkrb5-3, libk5crypto3, libcom-err2, libkrb5support0, libsndfile1, libsystemd0, libasyncns0, libblkid1, libdatrie1, libkeyutils1, libcurl3t64-gnutls, libduktape207, libflac14, libmpg123-0t64, libcap2, libnghttp3-9, libngtcp2-crypto-gnutls8, libngtcp2-16, libnghttp2-14, libidn2-0, librtmp1, libssh2-1t64, libpsl5t64, libnettle8t64, libgnutls30t64, libldap2, libunistring5, libhogweed6t64, libgmp10, libp11-kit0, libtasn1-6, libsasl2-2, qml-module-qtquick-controls2, qt6-wayland, libqt6quickshapes6, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window
+Filename: pool/non-free/m/moonlight/moonlight_trixie.deb
+Size: 9573620
+MD5sum: 4c13bb8debb17601317dc42149cccc6e
+SHA1: 13758d2b7145b5cecdc8c9cd1b2cc9ed797a37d5
+SHA256: 037079125136c09cb90803be38bfb6b3f394b632fca479684d2696d2a980f0f0
+SHA512: bbfbe2b2ff557240bb4d3385fe8a13563d12c168bdec7161395da0c00af8111405815d8759592fda68121ba51fe1c23f0309448e96ed23a225f92e88ea8f30e4
+Description: Moonlight PC is an open source PC client for NVIDIA GameStream and Sunshine with RKMPP support.
+
+Package: mpv
+Essential: no
+Priority: optional
+Section: media
+Installed-Size: 10736
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 0.38~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, libdrm2, libgcc-s1, libxcb1, libxcb-shm0, libxcb-shape0, libxcb-xfixes0, libasound2t64, libsdl2-2.0-0, libsndio7.0, libxv1, libx11-6, libxext6, libass9, libva2, rockchip-librga (>= 1.10.3~deb13u1+rkmpp), rockchip-mpp (>= 1.3.9~deb13u1+rkmpp), libfreetype6, libbz2-1.0, libgnutls30t64, zlib1g, libvpx9, liblzma5, libfdk-aac2t64, libmp3lame0, libopus0, libvorbis0a, libvorbisenc2, libx264-164, libx265-215, libva-drm2, libva-x11-2, libvdpau1, libxau6, libxdmcp6, libpulse0, libsamplerate0, libxcursor1, libxi6, libxfixes3, libxrandr2, libxss1, libgbm1, libwayland-egl1, libwayland-client0, libwayland-cursor0, libxkbcommon0, libdecor-0-0, libbsd0, libfribidi0, libharfbuzz0b, libunibreak6, libfontconfig1, libpng16-16t64, libbrotli1, libp11-kit0, libidn2-0, libunistring5, libtasn1-6, libhogweed6t64, libnettle8t64, libgmp10, libogg0, libnuma1, libx11-xcb1, libxcb-dri3-0, libdbus-1-3, libxrender1, libexpat1, libffi8, libmd0, libglib2.0-0t64, libgraphite2-3, libsndfile1, libsystemd0, libasyncns0, libatomic1, libpcre2-8-0, libflac14, libmpg123-0t64, libcap2, libavcodec61 (= 8:7.1.5~deb13u1+rkmpp), libavfilter10 (= 8:7.1.5~deb13u1+rkmpp), libavformat61 (= 8:7.1.5~deb13u1+rkmpp), libavutil59 (= 8:7.1.5~deb13u1+rkmpp), libplacebo349, libswresample5 (= 8:7.1.5~deb13u1+rkmpp), libswscale8 (= 8:7.1.5~deb13u1+rkmpp), libcdio-paranoia2t64, libcdio-cdda2t64, libcdio19t64, libdvdnav4, libmujs3, liblcms2-2, libarchive13t64, libavdevice61 (= 8:7.1.5~deb13u1+rkmpp), libbluray2, liblua5.2-0, librubberband2, libuchardet0, libzimg2, libjack-jackd2-0, libpipewire-0.3-0t64, libcaca0, libdisplay-info2, libjpeg62-turbo, libsixel1, libxpresent1, libegl1, libvulkan1, libva-wayland2, libwebpmux3, libdav1d7, librsvg2-2, libcairo2, libzvbi0t64, libsnappy1v5, libaom3, libcodec2-1.2, libgsm1, libjxl0.11, libopenjp2-7, librav1e0.7, libshine3, libspeex1, libsvtav1enc2, libtheoraenc1, libtheoradec1, libtwolame0, libwebp7, libxvidcore4, libpostproc58 (= 8:7.1.5~deb13u1+rkmpp), libpocketsphinx3, libsphinxbase3t64, libbs2b0, liblilv-0-0, libmysofa1, libflite1, libvidstab1.1, libzmq5, ocl-icd-libopencl1, libdvdread8t64, libxml2, libgme0, libopenmpt0t64, libchromaprint1, librabbitmq4, librist4, libsrt1.5-gnutls, libssh-4, libsoxr0, libacl1, libzstd1, liblz4-1, libraw1394-11, libavc1394-0, libiec61883-0, libopenal1, libdc1394-25, libgl1, libudfread0, libfftw3-double3, libdb5.3t64, libslang2, libncursesw6, libtinfo6, libglvnd0, libgdk-pixbuf-2.0-0, libcairo-gobject2, libpangocairo-1.0-0, libpango-1.0-0, libxcb-render0, libpixman-1-0, libhwy1t64, libsharpyuv0, libblas3, liblapack3, libserd-0-0, libsord-0-0, libsratom-0-0, libzix-0-0, libgomp1, libsodium23, libpgm-5.3-0t64, libnorm1t64, libgssapi-krb5-2, libvorbisfile3, libssl3t64, libmbedcrypto16, libcjson1, libxxhash0, libusb-1.0-0, libglx0, libmount1, libselinux1, libpangoft2-1.0-0, libthai0, libgfortran5, libkrb5-3, libk5crypto3, libcom-err2, libkrb5support0, libudev1, libblkid1, libdatrie1, libkeyutils1, mpv-lib (= 0.38~deb13u1+rkmpp)
+Filename: pool/non-free/m/mpv/mpv_trixie.deb
+Size: 3005968
+MD5sum: 8cc0fe5d682ce9c8eec63d6be840781f
+SHA1: 1aa4d9591098a9239e88cb5ea47d253177ac2615
+SHA256: 51e49ec8efbf56693c05ccbd9304f8108af18e0b4080c82881146ec6d172943b
+SHA512: 764eea8a3a181bf546d9b689cbbec3bec51eb72e365fa19cdd8873d728e7ee7924647353a577d5919ff7b125e38e7cd7013504325421e32f592a6eddd3ffbd8a
+Description: mpv is a free (as in freedom) media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types. Added the ability to work with RKMPP.
+
+Package: mpv-dev
+Essential: no
+Priority: optional
+Section: media
+Installed-Size: 200
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 0.38~deb13u1+rkmpp
+Depends: mpv (= 0.38~deb13u1+rkmpp)
+Filename: pool/non-free/m/mpv-dev/mpv-dev_trixie.deb
+Size: 46840
+MD5sum: e1e29fa384f1acfdc8b1fb4f06a94322
+SHA1: 9aa52570613e2c14795101a83675d38766301e73
+SHA256: 6b93cf43df8305ae35426808e0004738dd6c9b6fed84cfeae7fba15a0e60fc7f
+SHA512: 4ca9823830095418863291cef19032d06aea6085cdb0c316f7abb43a1070236ee43b16ab9d8d333ad96f4c25a96b87f21048bc36be94d2a83a4fdcafa7d71214
+Description: mpv player - development files 
+
+Package: mpv-lib
+Essential: no
+Priority: optional
+Section: media
+Installed-Size: 10536
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 0.38~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, libdrm2, libgcc-s1, libxcb1, libxcb-shm0, libxcb-shape0, libxcb-xfixes0, libasound2t64, libsdl2-2.0-0, libsndio7.0, libxv1, libx11-6, libxext6, libass9, libva2, rockchip-librga (>= 1.10.3~deb13u1+rkmpp), rockchip-mpp (>= 1.3.9~deb13u1+rkmpp), libfreetype6, libbz2-1.0, libgnutls30t64, zlib1g, libvpx9, liblzma5, libfdk-aac2t64, libmp3lame0, libopus0, libvorbis0a, libvorbisenc2, libx264-164, libx265-215, libva-drm2, libva-x11-2, libvdpau1, libxau6, libxdmcp6, libpulse0, libsamplerate0, libxcursor1, libxi6, libxfixes3, libxrandr2, libxss1, libgbm1, libwayland-egl1, libwayland-client0, libwayland-cursor0, libxkbcommon0, libdecor-0-0, libbsd0, libfribidi0, libharfbuzz0b, libunibreak6, libfontconfig1, libpng16-16t64, libbrotli1, libp11-kit0, libidn2-0, libunistring5, libtasn1-6, libhogweed6t64, libnettle8t64, libgmp10, libogg0, libnuma1, libx11-xcb1, libxcb-dri3-0, libdbus-1-3, libxrender1, libexpat1, libffi8, libmd0, libglib2.0-0t64, libgraphite2-3, libsndfile1, libsystemd0, libasyncns0, libatomic1, libpcre2-8-0, libflac14, libmpg123-0t64, libcap2, libavcodec61 (= 8:7.1.5~deb13u1+rkmpp), libavfilter10 (= 8:7.1.5~deb13u1+rkmpp), libavformat61 (= 8:7.1.5~deb13u1+rkmpp), libavutil59 (= 8:7.1.5~deb13u1+rkmpp), libplacebo349, libswresample5 (= 8:7.1.5~deb13u1+rkmpp), libswscale8 (= 8:7.1.5~deb13u1+rkmpp), libcdio-paranoia2t64, libcdio-cdda2t64, libcdio19t64, libdvdnav4, libmujs3, liblcms2-2, libarchive13t64, libavdevice61 (= 8:7.1.5~deb13u1+rkmpp), libbluray2, liblua5.2-0, librubberband2, libuchardet0, libzimg2, libjack-jackd2-0, libpipewire-0.3-0t64, libcaca0, libdisplay-info2, libjpeg62-turbo, libsixel1, libxpresent1, libegl1, libvulkan1, libva-wayland2, libwebpmux3, libdav1d7, librsvg2-2, libcairo2, libzvbi0t64, libsnappy1v5, libaom3, libcodec2-1.2, libgsm1, libjxl0.11, libopenjp2-7, librav1e0.7, libshine3, libspeex1, libsvtav1enc2, libtheoraenc1, libtheoradec1, libtwolame0, libwebp7, libxvidcore4, libpostproc58 (= 8:7.1.5~deb13u1+rkmpp), libpocketsphinx3, libsphinxbase3t64, libbs2b0, liblilv-0-0, libmysofa1, libflite1, libvidstab1.1, libzmq5, ocl-icd-libopencl1, libdvdread8t64, libxml2, libgme0, libopenmpt0t64, libchromaprint1, librabbitmq4, librist4, libsrt1.5-gnutls, libssh-4, libsoxr0, libacl1, libzstd1, liblz4-1, libraw1394-11, libavc1394-0, libiec61883-0, libopenal1, libdc1394-25, libgl1, libudfread0, libfftw3-double3, libdb5.3t64, libslang2, libncursesw6, libtinfo6, libglvnd0, libgdk-pixbuf-2.0-0, libcairo-gobject2, libpangocairo-1.0-0, libpango-1.0-0, libxcb-render0, libpixman-1-0, libhwy1t64, libsharpyuv0, libblas3, liblapack3, libserd-0-0, libsord-0-0, libsratom-0-0, libzix-0-0, libgomp1, libsodium23, libpgm-5.3-0t64, libnorm1t64, libgssapi-krb5-2, libvorbisfile3, libssl3t64, libmbedcrypto16, libcjson1, libxxhash0, libusb-1.0-0, libglx0, libmount1, libselinux1, libpangoft2-1.0-0, libthai0, libgfortran5, libkrb5-3, libk5crypto3, libcom-err2, libkrb5support0, libudev1, libblkid1, libdatrie1, libkeyutils1
+Filename: pool/non-free/m/mpv-lib/mpv-lib_trixie.deb
+Size: 2959816
+MD5sum: ddb6abc8d627591c8c1b83bee8aba93b
+SHA1: 971b2a97b7a3edf0837c6b38232cd64e43ba4be6
+SHA256: 1e3334c18d10494ad99a3871f7a3da185e3b69f17058119b675c9789d62dfa83
+SHA512: 6bf109955f43325d18d9b6fdc6ec5a1764fda01da984abcf2e8be099b4d021df88e8549cf846729a3ca02fb2416262b48c026fbc81e03319a2ca730a7b93111f
+Description: library for mpv player
+
+Package: obs-studio
+Priority: optional
+Section: devel
+Installed-Size: 329142
+Maintainer: OBS Project
+Architecture: arm64
+Version: 32.0.0
+Depends: libasound2t64 (>= 1.0.17), libatk-bridge2.0-0t64 (>= 2.5.3), libatk1.0-0t64 (>= 2.2.0), libatspi2.0-0t64 (>= 2.9.90), libavcodec61 (>= 7:7.1.5), libavdevice61 (>= 7:7.1.5), libavformat61 (>= 7:7.1.5), libavutil59 (>= 7:7.1.5), libc6 (>= 2.38), libcups2t64 (>= 1.7.0), libcurl4t64 (>= 7.16.2), libdbus-1-3 (>= 1.10), libdrm2 (>= 2.4.99), libegl1, libexpat1 (>= 2.1~beta3), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.40.0), libglx0, libjansson4 (>= 2.14), libluajit-5.1-2 (>= 2.0.4) | libluajit-5.1-2 (>= 2.1.0+openresty), libmbedcrypto16 (>= 3.6.0), libmbedtls21 (>= 3.6.0), libmbedx509-7 (>= 3.6.0), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.31), libopengl0, libpci3 (>= 1:3.13.0), libpipewire-0.3-0t64 (>= 0.3.6), libpulse0 (>= 0.99.1), libpython3.13 (>= 3.13.0~rc3), libqrcodegencpp1 (>= 1.2.1), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.3.0), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.1.2), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.7.2), libqt6xml6 (>= 6.6.0), librist4 (>= 0.2.6+dfsg), libspeexdsp1 (>= 1.2.1), libsrt1.5-openssl (>= 1.5.4), libstdc++6 (>= 14), libswresample5 (>= 7:7.1.5), libswscale8 (>= 7:7.1.5), libudev1 (>= 183), libuuid1 (>= 2.16), libv4l-0t64 (>= 0.5.0), libva-drm2 (>= 1.1.0), libva2 (>= 2.2.0), libwayland-client0 (>= 1.20.0), libwayland-egl1 (>= 1.15.0), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libx264-164 (>= 2:0.164.3108+git31e19f9), libxcb-composite0, libxcb-randr0 (>= 1.12), libxcb-shm0, libxcb-xfixes0, libxcb-xinerama0, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.6), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, zlib1g (>= 1:1.1.4)
+Filename: pool/non-free/o/obs-studio/obs-studio-32.0.0-Linux_trixie.deb
+Size: 100014880
+MD5sum: 1c9ba9df8a3031b7e063818e815bf4f1
+SHA1: 6b5a7af23ac6a4fd5bba0d76429f2efe322ec896
+SHA256: 0da57710dc7a03516f8941707f5d35b51725644d39b9f87e9ba2dd269b58e289
+SHA512: e2caafa97eb9e2d4b397edb66c79b983d2ebbb79d7300b93d5d88f7cdee3360deb68fed295c23bd153391d08f105ecf0f24626687b580bd66c04b31652b32491
+Description: Free and open source software for video recording and live streaming
+Homepage: https://www.obsproject.com
+
+Package: rockchip-librga
+Essential: no
+Priority: optional
+Section: media
+Installed-Size: 308
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 1.10.4~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, libgcc-s1
+Filename: pool/non-free/r/rockchip-librga/rockchip-librga_trixie.deb
+Size: 78376
+MD5sum: b25a34d5e6a2e0a138c472f278ef3cec
+SHA1: 692be25c55084d9cb7d42f17aeabe44d7bc393ea
+SHA256: e4c18a47004538a184857577b21e78b9b4652f067057dcad7e65a0261732da1a
+SHA512: f32d4051a42dc3e0caa75f3ec421a4e114151a5e665ad580169f9e7e24a999ad8c492fb09f2e1361c16fa5c04c4af16add8ca04495dc72ec3d35e75b4c2c3a4a
+Description: Rockchip librga - library for 2D accelerator Rockchip SoCs.
+
+Package: rockchip-librga-dev
+Essential: no
+Priority: optional
+Section: media
+Installed-Size: 168
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 1.10.4~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, libgcc-s1, rockchip-librga (>= 1.10.3~deb13u1+rkmpp)
+Filename: pool/non-free/r/rockchip-librga-dev/rockchip-librga-dev_trixie.deb
+Size: 16868
+MD5sum: 228160617631fb9f678c1555ec0bc6d3
+SHA1: f929475ab33918be81543021ed63773ccdff3ca6
+SHA256: 7eab7ec8f9b7fcc9d24b881a5d934d944bdc71f60660771d84a4d3aea8583fb3
+SHA512: fe6f30c1a74543725fb05066a8c13eabc30e22b4932223a495c349e07f74e23ecc151e39f886fb80704ee248fa4053c6beac27e51da8776c1e7c27d99ea11624
+Description: Rockchip librga - library for 2D accelerator Rockchip SoCs. Development files.
+
+Package: rockchip-mpp
+Essential: no
+Priority: optional
+Section: media
+Installed-Size: 8364
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 1.3.10~deb13u1+rkmpp
+Depends: libc6, libstdc++6, libgcc-s1, udev, rockchip-multimedia-config
+Recommends: rockchip-mpp-dev
+Filename: pool/non-free/r/rockchip-mpp/rockchip-mpp_trixie.deb
+Size: 1343812
+MD5sum: 8f84f362f65d7f143a6730751ba770ee
+SHA1: 1855d360d0ec2969b9e875bd20e186b3873644c8
+SHA256: be957232d893809f7be840741a1761bea15f0c515e832c884fa95a665fda3819
+SHA512: 6ddba6294e740d9dd5a13d2c4ba24eedd6a1ecfea22792e9223668db2b5818af1fecbe2eb7c001d33fa3a9ae88d895a0adbb471332ec9d846edd69ad4be407b3
+Description: Rockchip MPP library
+
+Package: rockchip-mpp-dev
+Essential: no
+Priority: optional
+Section: media
+Installed-Size: 280
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 1.3.10~deb13u1+rkmpp
+Depends: rockchip-mpp (>= 1.3.10~deb13u1+rkmpp)
+Filename: pool/non-free/r/rockchip-mpp-dev/rockchip-mpp-dev_trixie.deb
+Size: 39820
+MD5sum: 75c87d184b1098e1f5f2edefefb71d6e
+SHA1: 218a0565bf9790c130875b4c9be3124617d21915
+SHA256: 6a2bf48fc7cf0082caa757d17e0876a8e46dc44d12660cf9a91e091f8c2a5198
+SHA512: 7a1c9c920af25b841615d4ef6c901cf7d2ac5adf4fef05bede398d4b442732935bb85b3358df638ef730ab44f5e792b76b9bb27784c68bc3efd7e1074ee1d3f0
+Description: Rockchip MPP library - development file
+
+Package: rockchip-multimedia-config
+Priority: optional
+Section: libs
+Installed-Size: 20
+Maintainer: Jianfeng Liu <liujianfeng1994@gmail.com>
+Architecture: all
+Version: 1.0.3+noble
+Depends: udev
+Filename: pool/non-free/r/rockchip-multimedia-config/rockchip-multimedia-config_1.0.3+noble_all_trixie.deb
+Size: 3246
+MD5sum: 81efe54db9d5f6cdc462e122685d98dc
+SHA1: e4767051aea1b7ec2ed597bd722a9696336066a6
+SHA256: 62c84893a4697efd718723005b24ebc8ba55f4dd754594630304fafc3a0a78c7
+SHA512: b3639842cd1110f44171ae722dff294efd982bcdb968fe64bd7ccb130dd9dc538515970a987cc48500ea4d6672bef67ddf98d07a979559e898b617034e9105c8
+Description: System config for rockchip legacy multimedia
+Homepage: https://github.com/amazingfate/rockchip-multimedia-config
+
+Package: v4l-utils
+Essential: no
+Priority: optional
+Section: media
+Installed-Size: 34920
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 1.30~deb13u1+rkmpp
+Depends: libc6 (>= 2.41), libstdc++6, libudev1, libcap2, libgcc-s1, libv4l2rds0t64 (= 1.30~deb13u1+rkmpp), libv4l-0t64 (= 1.30~deb13u1+rkmpp), libv4lconvert0t64 (= 1.30~deb13u1+rkmpp), libjpeg62-turbo
+Filename: pool/non-free/v/v4l-utils/v4l-utils_trixie.deb
+Size: 8290560
+MD5sum: 0652413abc780bb973d61902be36ee93
+SHA1: 32f8ddf191f80e0c613826e63c4fc3de4d6c250e
+SHA256: 10419ed916dd815f1af8b7bd8e9f8eaa8254a94ad2625ae5e8a463287400f91c
+SHA512: 44d853990b12aac7381fabfc71fc273e5c4c6228d2043c24e06bd8f94f7fc0e20bd1a0cd817d27d3c6372bda824e9e6c360114d9c8f8f58c171424cdc47123f8
+Description: Linux utilities and libraries to handle media devices (TV devices, capture devices, radio devices, remote controllers) with patches for work RKMPP by JeffyCN.
+
+Package: v4l-utils-dev
+Essential: no
+Priority: optional
+Section: media
+Installed-Size: 492
+Maintainer: dima7tw <admin@techweb.kh.ua>
+Architecture: arm64
+Version: 1.30~deb13u1+rkmpp
+Depends: v4l-utils (= 1.30~deb13u1+rkmpp)
+Filename: pool/non-free/v/v4l-utils-dev/v4l-utils-dev_trixie.deb
+Size: 60012
+MD5sum: 744f747c9e94caab760593157e2deddc
+SHA1: 942382edc63f8b95b5b143cfb4e66a0752fdb7b0
+SHA256: ef4e7a232653d89663b13b2866eb8ce8a57793852c7d39668300b6734229e81c
+SHA512: 23999880d0a7eaf2905ac4d757a77dce990c3076b2cbbc5595311af56a5655fa28cb04aa4bc849b5a2d32cd9dceac7dd9a0fcb4cf4153779cd52029e72172ad1
+Description: development files for v4l-utils with patches for work RKMPP by JeffyCN.
+

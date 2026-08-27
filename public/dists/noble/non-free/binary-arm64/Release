@@ -1,0 +1,7 @@
+Origin: Noble-RKMPP
+Label: Noble-RKMPP
+Archive: noble
+Suite: noble
+Codename: noble
+Architecture: arm64
+Component: non-free
