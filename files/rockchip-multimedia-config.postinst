@@ -1,0 +1,32 @@
+#!/bin/bash
+
+set -e
+
+case "$1" in
+	configure|triggered)
+		libdir=/usr/lib64
+		libv4l_filename=$(find /usr/lib -name "libv4l2.so*" | head -n 1)
+		if [ -L $libdir ];then
+			echo "is link"
+			if [ -L ${libdir}/libv4l2.so ];then
+				rm -f ${libdir}/libv4l2.so
+			fi
+			cp ${libv4l_filename} ${libdir}/libv4l2.so
+		elif [ -d $libdir ];then
+			echo "dir already exist"
+			if [ -L ${libdir}/libv4l2.so ];then
+				rm -f ${libdir}/libv4l2.so
+			fi
+			cp ${libv4l_filename} ${libdir}/libv4l2.so
+		else
+			echo "dir not exist"
+			ln -s /lib /usr/lib64
+			if [ -L ${libdir}/libv4l2.so ];then
+				rm -f ${libdir}/libv4l2.so
+			fi
+			cp ${libv4l_filename} ${libdir}/libv4l2.so
+		fi
+		udevadm control --reload-rules
+		udevadm trigger
+		;;
+esac
