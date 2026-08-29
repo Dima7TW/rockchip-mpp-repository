@@ -16,6 +16,34 @@ This repository have:
 There are plans to add:
 - [ ] gstreamer (1.28, 1.24 already exists, may be added or updated);
 - [ ] chromium (132+);
-- [ ] kodi (21+).
-
+- [ ] kodi (21+).\
+At the moment, repository work only with Ubuntu Noble 24.04 LTS.
 ## How to install this repository?
+Run in terminal
+```
+echo "deb [trusted=yes] https://apt.fury.io/dima7tw/ /" | sudo tee /etc/apt/sources.list.d/fury.list
+sudo apt update
+```
+Then, install this package:
+```
+sudo apt install libv4l-0t64 v4l-utils
+```
+Then, install needed packages.
+> [!NOTE]
+> When installing the rockchip-multimedia-config package in a Docker container, the following error may occur:
+> ```
+> Failed to send reload request: No such file or directory
+> ```
+> This can be fixed as follows:
+> ```
+> sudo wget -P /var/lib/dpkg/info/rockchip-multimedia-config.postinst https://github.com/Dima7TW/rockchip-mpp-repository/releases/download/beta/rockchip-multimedia-config.postinst
+> sudo chmod 775 /var/lib/dpkg/info/rockchip-multimedia-config.postinst
+> sudo apt install -f
+> ```
+> Then, install needed packages, if they were not installed.
+## How to remove repository?
+Run in terminal:
+```
+sudo rm /etc/apt/sources.list.d/fury.list
+sudo apt update
+```
