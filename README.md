@@ -1,10 +1,7 @@
 # Rockchip-MPP-Repository
 Repository deb packages with RKMPP support (beta, in development).
 
-> [!WARNING]
-> Not recommended for production at the moment.
-
-# About this repository
+## About this repository
 This repository have:
 - [x] Ffmpeg 7.1.5 (by [nyanmisaka](https://github.com/nyanmisaka/ffmpeg-rockchip));
 - [x] Rockchip librga 1.10.4;
@@ -20,3 +17,5 @@ There are plans to add:
 - [ ] gstreamer (1.28, 1.24 already exists, may be added or updated);
 - [ ] chromium (132+);
 - [ ] kodi (21+).
+
+## How to install this repository?
