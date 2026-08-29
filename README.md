@@ -17,7 +17,7 @@ There are plans to add:
 - [ ] gstreamer (1.28, 1.24 already exists, may be added or updated);
 - [ ] chromium (132+);
 - [ ] kodi (21+).\
-At the moment, repository work only with Ubuntu Noble.
+At the moment, repository work only with Ubuntu Noble 24.04 LTS.
 ## How to install this repository?
 Run in terminal
 ```
