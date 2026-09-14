@@ -29,18 +29,21 @@ Then, install this package:
 sudo apt install libv4l-0t64 v4l-utils
 ```
 Then, install needed packages.
-> [!NOTE]
-> When installing the rockchip-multimedia-config package in a Docker container, the following error may occur:
+
+> ~~[!NOTE]~~\
+> ~~When installing the rockchip-multimedia-config package in a Docker container, the following error may occur:~~
 > ```
 > Failed to send reload request: No such file or directory
 > ```
-> This can be fixed as follows:
+> ~~This can be fixed as follows:~~
 > ```
 > sudo wget -P /var/lib/dpkg/info/rockchip-multimedia-config.postinst https://github.com/Dima7TW/rockchip-mpp-repository/releases/download/beta/rockchip-multimedia-config.postinst
 > sudo chmod 775 /var/lib/dpkg/info/rockchip-multimedia-config.postinst
 > sudo apt install -f
 > ```
-> Then, install needed packages, if they were not installed.
+> ~~Then, install needed packages, if they were not installed.~~\
+
+**Fixed**
 ## How to remove repository?
 Run in terminal:
 ```
