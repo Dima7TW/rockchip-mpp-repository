@@ -16,7 +16,7 @@ There are plans to add:
 - [ ] gstreamer (1.28, 1.24 already exists, may be added or updated);
 - [ ] chromium (132+);
 - [ ] kodi (21+);
-- [ ] maybe add 32-bit support (armhf) <it's needed?>.
+- [ ] maybe, add 32-bit ARM support (armhf/armv7) <it's needed?>.
 
 At the moment, repository work only with Ubuntu Noble 24.04 LTS. Tested on Orange Pi 3B (RK3566) and Orange Pi 5 Plus (RK3588).
 ## Problems
