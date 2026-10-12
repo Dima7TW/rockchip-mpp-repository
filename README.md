@@ -19,23 +19,8 @@ There are plans to add:
 - [ ] maybe, add 32-bit ARM support (armhf/armv7) <it's needed?>.
 
 At the moment, repository work only with Ubuntu Noble 24.04 LTS. Tested on Orange Pi 3B (RK3566) and Orange Pi 5 Plus (RK3588).
+
+Information about how to install or remove repository merged to [wiki](https://github.com/Dima7TW/rockchip-mpp-repository/wiki).
 ## Problems
 At the moment, in Ubuntu Noble ffmpeg not supported API Vulkan.
-## How to install this repository?
-Run in terminal
-```
-echo "deb [trusted=yes] https://apt.fury.io/dima7tw/ /" | sudo tee /etc/apt/sources.list.d/fury.list
-sudo apt update
-```
-Then, install this package:
-```
-sudo apt install libv4l-0t64 v4l-utils
-```
-Then, install needed packages.
 
-## How to remove repository?
-Run in terminal:
-```
-sudo rm /etc/apt/sources.list.d/fury.list
-sudo apt update
-```
