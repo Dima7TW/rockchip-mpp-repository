@@ -3,8 +3,8 @@ Repository deb packages with RKMPP support (beta, in development).
 
 ## About this repository
 This repository have:
-- [x] Ffmpeg 7.1.5 (by [nyanmisaka](https://github.com/nyanmisaka/ffmpeg-rockchip)) <in this month upgrade to 8.1.2 version>;
-- [x] Rockchip librga 1.10.4 <in this month upgrade to 1.10.6 version>;
+- [x] Ffmpeg 7.1.5 (by [nyanmisaka](https://github.com/nyanmisaka/ffmpeg-rockchip));
+- [x] Rockchip librga 1.10.4;
 - [x] Rockchip MPP (latest, 1.3.10);
 - [x] MPV 0.38;
 - [x] Celluloid 0.27 (ubuntu noble) / 0.30 (debian trixie);
@@ -14,6 +14,8 @@ This repository have:
 
 There are plans to add:
 - [ ] gstreamer (1.28, 1.24 already exists, may be added or updated);
+- [ ] upgrade ffmpeg to version 8.1.2 (in this month);
+- [ ] upgrade librga to version 1.10.6 (in this month);
 - [ ] chromium (132+);
 - [ ] kodi (21+);
 - [ ] maybe, add 32-bit ARM support (armhf/armv7) <it's needed?>;
