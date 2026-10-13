@@ -26,6 +26,6 @@ At the moment, repository work only with Ubuntu Noble 24.04 LTS. Tested on Orang
 
 Information about how to install or remove repository transfered to [wiki](https://github.com/Dima7TW/rockchip-mpp-repository/wiki).
 ## Problems
-- [ ] At the moment, in Ubuntu Noble ffmpeg not supported API Vulkan.
+- [ ] At the moment, in Ubuntu Noble, ffmpeg not supported API Vulkan.
 - [ ] Low version celluloid package in Ubuntu Noble.
 
