@@ -24,7 +24,7 @@ There are plans to add:
 
 At the moment, repository work only with Ubuntu Noble 24.04 LTS. Tested on Orange Pi 3B (RK3566) and Orange Pi 5 Plus (RK3588).
 
-Information about how to install or remove repository merged to [wiki](https://github.com/Dima7TW/rockchip-mpp-repository/wiki).
+Information about how to install or remove repository transfered to [wiki](https://github.com/Dima7TW/rockchip-mpp-repository/wiki).
 ## Problems
 - [ ] At the moment, in Ubuntu Noble ffmpeg not supported API Vulkan.
 - [ ] Low version celluloid package in Ubuntu Noble.
