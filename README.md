@@ -13,7 +13,7 @@ This repository have:
 - [x] V4L-utils (1.30, forked by [me](https://github.com/Dima7TW/v4l-utils-rkmpp)).
 
 There are plans to add:
-- [ ] gstreamer (1.28, 1.24 already exists, may be added or upgradated);
+- [ ] gstreamer (1.28, 1.24 already exists, may be add or upgrade);
 - [ ] upgrade ffmpeg to version 8.1.2 (in this month);
 - [ ] upgrade librga to version 1.10.6 (in this month);
 - [ ] chromium (132+);
