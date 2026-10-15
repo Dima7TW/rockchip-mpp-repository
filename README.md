@@ -12,7 +12,7 @@ This repository have:
 - [x] Moonlight 6.1.0;
 - [x] V4L-utils (1.30, forked by [me](https://github.com/Dima7TW/v4l-utils-rkmpp)).
 
-There are plans to add:
+There are plans to add or change/upgrade:
 - [ ] gstreamer (1.28, 1.24 already exists, may be add or upgrade);
 - [ ] upgrade ffmpeg to version 8.1.2 (in this month);
 - [ ] upgrade librga to version 1.10.6 (in this month);
@@ -20,6 +20,7 @@ There are plans to add:
 - [ ] kodi (21+);
 - [ ] may be, add 32-bit ARM support (armhf/armv7) <it's needed?>;
 - [ ] vlc;
+- [ ] add support Ubuntu 26.04 LTS Resolute;
 - [ ] v4l2 for firefox.
 
 At the moment, repository work only with Ubuntu Noble 24.04 LTS. Tested on Orange Pi 3B (RK3566) and Orange Pi 5 Plus (RK3588).
