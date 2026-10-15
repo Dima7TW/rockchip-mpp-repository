@@ -18,7 +18,7 @@ There are plans to add:
 - [ ] upgrade librga to version 1.10.6 (in this month);
 - [ ] chromium (132+);
 - [ ] kodi (21+);
-- [ ] maybe, add 32-bit ARM support (armhf/armv7) <it's needed?>;
+- [ ] may be, add 32-bit ARM support (armhf/armv7) <it's needed?>;
 - [ ] vlc;
 - [ ] v4l2 for firefox.
 
