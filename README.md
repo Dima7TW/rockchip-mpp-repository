@@ -21,6 +21,9 @@ There are plans to add or change/upgrade:
 - [ ] may be, add 32-bit ARM support (armhf/armv7) <it's needed?>;
 - [ ] vlc;
 - [ ] add support Ubuntu 26.04 LTS Resolute;
+- [ ] mpv latest (0.41);
+- [ ] celluloid latest (0.30);
+- [ ] moonlight latest (6.2.0);
 - [ ] v4l2 for firefox.
 
 At the moment, repository work only with Ubuntu Noble 24.04 LTS. Tested on Orange Pi 3B (RK3566) and Orange Pi 5 Plus (RK3588).
