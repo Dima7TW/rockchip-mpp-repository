@@ -3,25 +3,25 @@ Repository deb packages with RKMPP support (beta, in development).
 
 ## About this repository
 This repository have:
-- [x] Ffmpeg 7.1.5 (by [nyanmisaka](https://github.com/nyanmisaka/ffmpeg-rockchip));
-- [x] Rockchip librga 1.10.4;
-- [x] Rockchip MPP (latest, 1.3.10);
-- [x] MPV 0.38;
+- [x] Ffmpeg 8.1.2 (by [nyanmisaka](https://github.com/nyanmisaka/ffmpeg-rockchip));
+- [x] Rockchip librga 1.10.6;
+- [x] Rockchip MPP (latest, 1.3.11 or 1.5.10);
+- [x] MPV 0.41;
 - [x] Celluloid 0.27 (ubuntu noble) / 0.30 (debian trixie);
-- [x] OBS-studio 32.0 (by [MecoMedia](https://github.com/MecoMediaOrg/obs-rockchip));
+- [x] OBS-studio 32.2.2 (by [MecoMedia](https://github.com/MecoMediaOrg/obs-rockchip));
 - [x] Moonlight 6.1.0;
 - [x] V4L-utils (1.30, forked by [me](https://github.com/Dima7TW/v4l-utils-rkmpp)).
 
 There are plans to add or change/upgrade:
 - [ ] gstreamer (1.28, 1.24 already exists, may be add or upgrade);
-- [ ] upgrade ffmpeg to version 8.1.2 (in this month);
-- [ ] upgrade librga to version 1.10.6 (in this month);
+- [x] upgrade ffmpeg to version 8.1.2;
+- [x] upgrade librga to version 1.10.6;
 - [ ] chromium (132+);
 - [ ] kodi (21+);
 - [ ] may be, add 32-bit ARM support (armhf/armv7) <it's needed?>;
 - [ ] vlc;
 - [ ] add support Ubuntu 26.04 LTS Resolute;
-- [ ] mpv latest (0.41);
+- [x] mpv latest (0.41);
 - [ ] celluloid latest (0.30);
 - [ ] moonlight latest (6.2.0);
 - [ ] v4l2 for firefox.
