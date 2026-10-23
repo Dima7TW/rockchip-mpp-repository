@@ -9,7 +9,7 @@ This repository have:
 - [x] MPV 0.41;
 - [x] Celluloid 0.27 (ubuntu noble) / 0.30 (debian trixie);
 - [x] OBS-studio 32.2.2 (by [MecoMedia](https://github.com/MecoMediaOrg/obs-rockchip));
-- [x] Moonlight 6.1.0;
+- [x] Moonlight 6.2.0;
 - [x] V4L-utils (1.30, forked by [me](https://github.com/Dima7TW/v4l-utils-rkmpp)).
 
 There are plans to add or change/upgrade:
@@ -22,8 +22,9 @@ There are plans to add or change/upgrade:
 - [ ] vlc;
 - [ ] add support Ubuntu 26.04 LTS Resolute;
 - [x] mpv latest (0.41);
-- [ ] celluloid latest (0.30);
-- [ ] moonlight latest (6.2.0);
+- [ ] celluloid latest for noble (0.30);
+- [x] moonlight latest (6.2.0);
+- [ ] add support vulkan api for ffmpeg (ubuntu noble 24.04 LTS);
 - [ ] v4l2 for firefox.
 
 At the moment, repository work only with Ubuntu Noble 24.04 LTS. Tested on Orange Pi 3B (RK3566) and Orange Pi 5 Plus (RK3588).
