@@ -3,7 +3,7 @@ Repository deb packages with RKMPP support (pre-release, in development).
 
 ## About this repository
 This repository have:
-- [x] Ffmpeg 8.1.2 (by [nyanmisaka](https://github.com/nyanmisaka/ffmpeg-rockchip));
+- [x] Ffmpeg 8.1.3 (by [nyanmisaka](https://github.com/nyanmisaka/ffmpeg-rockchip));
 - [x] Rockchip librga 1.10.6;
 - [x] Rockchip MPP (latest, 1.3.11 or 1.5.10);
 - [x] MPV 0.41;
