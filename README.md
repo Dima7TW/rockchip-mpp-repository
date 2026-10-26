@@ -1,5 +1,5 @@
 # Rockchip-MPP-Repository
-Repository deb packages with RKMPP support (beta, in development).
+Repository deb packages with RKMPP support (pre-release, in development).
 
 ## About this repository
 This repository have:
@@ -21,6 +21,7 @@ There are plans to add or change/upgrade:
 - [ ] may be, add 32-bit ARM support (armhf/armv7) <it's needed?>;
 - [ ] vlc;
 - [ ] add support Ubuntu 26.04 LTS Resolute;
+- [ ] add repo for Debian 13 Trixie;
 - [x] mpv latest (0.41);
 - [ ] celluloid latest for noble (0.30);
 - [x] moonlight latest (6.2.0);
