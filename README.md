@@ -23,4 +23,3 @@ Information about how to install or remove repository transfered to [wiki](https
 ## How to support
 1. Use repository and create issues, if there are problems or proposition;
 2. Add start to this repository;
-3. Finance .
