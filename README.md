@@ -20,4 +20,7 @@ Information about how to install or remove repository transfered to [wiki](https
 ## Problems
 - [ ] At the moment, in Ubuntu Noble, ffmpeg not supported API Vulkan.
 - [ ] Lower version of celluloid package in Ubuntu Noble.
-
+## How to support
+1. Use repository and create issues, if there are problems or proposition;
+2. Add start to this repository;
+3. Finance .
