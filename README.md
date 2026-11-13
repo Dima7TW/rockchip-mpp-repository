@@ -12,21 +12,7 @@ This repository have:
 - [x] Moonlight 6.2.0;
 - [x] V4L-utils (1.30, forked by [me](https://github.com/Dima7TW/v4l-utils-rkmpp)).
 
-There are plans to add or change/upgrade:
-- [ ] gstreamer (1.28, 1.24 already exists, may be add or upgrade);
-- [x] upgrade ffmpeg to version 8.1.2;
-- [x] upgrade librga to version 1.10.6;
-- [ ] chromium (132+);
-- [ ] kodi (21+);
-- [ ] may be, add 32-bit ARM support (armhf/armv7) <it's needed?>;
-- [ ] vlc;
-- [ ] add support Ubuntu 26.04 LTS Resolute;
-- [ ] add repo for Debian 13 Trixie;
-- [x] mpv latest (0.41);
-- [ ] celluloid latest for noble (0.30);
-- [x] moonlight latest (6.2.0);
-- [ ] add support vulkan api for ffmpeg (ubuntu noble 24.04 LTS);
-- [ ] v4l2 for firefox.
+Plans moved to [wiki](https://github.com/Dima7TW/rockchip-mpp-repository/wiki/Future-Plans).
 
 At the moment, repository work only with Ubuntu Noble 24.04 LTS. Tested on Orange Pi 3B (RK3566) and Orange Pi 5 Plus (RK3588).
 
