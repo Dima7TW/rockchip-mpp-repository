@@ -26,4 +26,4 @@ Information about how to install or remove repository moved to [wiki](https://gi
 - [ ] Lower version of celluloid package in Ubuntu Noble.
 ## How to support
 1. Use repository and create issues, if there are problems or proposition;
-2. Add start to this repository;
+2. Add star to this repository;
