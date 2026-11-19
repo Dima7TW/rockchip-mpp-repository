@@ -1,6 +1,9 @@
 # Rockchip-MPP-Repository
 Repository deb packages with RKMPP support (**Release**, in development).
 
+> [!NOTE]
+> It`s not official repository by Rockchip.
+
 ## About this repository
 This repository have:
 - [x] Ffmpeg 8.1.3 (by [nyanmisaka](https://github.com/nyanmisaka/ffmpeg-rockchip));
