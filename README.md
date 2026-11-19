@@ -27,3 +27,4 @@ Information about how to install or remove repository moved to [wiki](https://gi
 ## How to support
 1. Use repository and create issues, if there are problems or proposition;
 2. Add star to this repository;
+3. [Additional support](https://github.com/Dima7TW/rockchip-mpp-repository/wiki/Support-Link).
